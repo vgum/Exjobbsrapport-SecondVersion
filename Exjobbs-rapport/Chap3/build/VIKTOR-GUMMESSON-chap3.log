@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.17)  20 APR 2016 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.17)  20 APR 2016 15:16
 entering extended mode
 **D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON
 -chap3.tex
@@ -2602,9 +2602,6 @@ Package rerunfilecheck Info: File `VIKTOR-GUMMESSON-chap3.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1620.
  ) 
 Here is how much of TeX's memory you used:
@@ -2636,7 +2633,7 @@ m/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssdc1
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
 Output written on D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/
-build/VIKTOR-GUMMESSON-chap3.pdf (73 pages, 8646328 bytes).
+build/VIKTOR-GUMMESSON-chap3.pdf (73 pages, 8646326 bytes).
 PDF statistics:
  1287 PDF objects out of 1440 (max. 8388607)
  509 named destinations out of 1000 (max. 500000)
