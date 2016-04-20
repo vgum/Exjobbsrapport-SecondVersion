@@ -1,0 +1,5 @@
+Latex numerated nested lists:
+http://tex.stackexchange.com/questions/68960/defining-new-subsubsection-not-working
+
+Latex tabel creator:
+http://www.tablesgenerator.com/

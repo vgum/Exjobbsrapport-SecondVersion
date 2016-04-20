@@ -1,0 +1,42 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdftex 2014.11.27)  27 NOV 2014 16:18
+entering extended mode
+**C:/Users/VGUXT8/Documents/VisualizeSystem/Exjobb-rapport/Delar/TeoriBakgrund/
+refs.bib
+
+(C:/Users/VGUXT8/Documents/VisualizeSystem/Exjobb-rapport/Delar/TeoriBakgrund/r
+efs.bib
+Missing character: There is no â in font cmr10!
+Missing character: There is no — in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+
+Overfull \hbox (1.54932pt too wide) in paragraph at lines 57--65
+\tenrm ceed-ings., IEEE Sym-po-sium on, ti-tle=H3: lay-ing out large di-rected 
+graphs in 3D hy-per-bolic space, year=1997,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm c
+.\tenrm e
+.\tenrm e
+.\tenrm d
+.\discretionary
+..\tenrm -
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.70  issue_
+            date = {June 1996},
+? 
+! Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.70  issue_
+            date = {June 1996},
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

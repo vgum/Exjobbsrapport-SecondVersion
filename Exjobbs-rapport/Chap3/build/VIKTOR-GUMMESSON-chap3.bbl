@@ -1,0 +1,410 @@
+\begin{thebibliography}{10}
+
+\bibitem{website:HiveR}
+academic.depauw.edu.
+\newblock Hiver.
+\newblock \url{http://academic.depauw.edu/~hanson/HiveR/HiveR.html}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:JHive}
+bcgsc.ca.
+\newblock jhive - a java gui for hive plots.
+\newblock \url{https://www.bcgsc.ca/wiki/display/jhive/home}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:biofabricdoc}
+biofabric.org.
+\newblock Biofabric documentation.
+\newblock \url{http://www.biofabric.org/#docs}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:biosif}
+biofabric.org.
+\newblock Sif files.
+\newblock \url{http://www.biofabric.org/#sif}.
+\newblock [Online; Accessed 27-December-2014].
+
+\bibitem{website:xgmml}
+cgi5.
+\newblock Xgmml (extensible graph markup and modeling language).
+\newblock
+  \url{http://cgi5.cs.rpi.edu/research/groups/pb/punin/public_html/XGMML/}.
+\newblock [Online; Accessed 28-December-2014].
+
+\bibitem{website:graphviznet}
+code.google.com.
+\newblock graphviznet.
+\newblock \url{https://code.google.com/p/graphviznet/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:graphviz4net}
+codeplex.com.
+\newblock Graphviz4net.
+\newblock \url{https://graphviz4net.codeplex.com/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:quickDoc}
+codeplex.com.
+\newblock Quickgraph documentation.
+\newblock \url{https://quickgraph.codeplex.com/documentation}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:codeplex}
+codeplex.com.
+\newblock Quickgraph, graph data structures and algorithms for .net.
+\newblock \url{https://quickgraph.codeplex.com/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:quickGGviz}
+codeplex.com.
+\newblock Visualization using graphviz.
+\newblock
+  \url{https://quickgraph.codeplex.com/wikipage?title=Visualization%20Using%20Graphviz&referringTitle=Documentation/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:WPFTreeMaps}
+codeplex.com.
+\newblock Wpf treemaps & squarifiedtreemaps control.
+\newblock \url{https://treemaps.codeplex.com/}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:WPFExtensions}
+codeplex.com.
+\newblock Wpfextensions.
+\newblock \url{https://wpfextensions.codeplex.com/}.
+\newblock [Online; Accessed 15-March-2015].
+
+\bibitem{website:C++}
+cplusplus.com.
+\newblock cplusplus.
+\newblock \url{http://www.cplusplus.com/}.
+\newblock [Online; Accessed 16-December-2015].
+
+\bibitem{website:D3JS}
+d3js.org.
+\newblock D3 data-driven documents.
+\newblock \url{http://d3js.org/}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:devxTreeMap}
+devx.com.
+\newblock The .net treemap control.
+\newblock \url{http://www.devx.com/xml/Article/17357/0/page/2}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{ead}
+Peter Eades.
+\newblock A heuristic for graph drawing.
+\newblock {\em Congressus Numerantium}, 42:149--160, 1984.
+
+\bibitem{195097}
+M.R. Endsley.
+\newblock Situation awareness global assessment technique (sagat).
+\newblock In {\em Aerospace and Electronics Conference, 1988. NAECON 1988.,
+  Proceedings of the IEEE 1988 National}, pages 789--795 vol.3, May 1988.
+
+\bibitem{fr}
+T.~Fruchterman and E.~Reingold.
+\newblock Graph drawing by force-directed placement.
+\newblock {\em Softw. - Pract. Exp.}, 21(11):1129--1164, 1991.
+
+\bibitem{website:gephi}
+gephi.org.
+\newblock The open graph viz platform.
+\newblock \url{https://gephi.org/}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:gephipajek}
+gephi.org.
+\newblock Pajek net format.
+\newblock
+  \url{https://gephi.org/users/supported-graph-formats/pajek-net-format/}.
+\newblock [Online; Accessed 28-December-2014].
+
+\bibitem{website:graphsharp}
+graphsharp.codeplex.com.
+\newblock Graph\#.
+\newblock \url{http://graphsharp.codeplex.com/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:graphviz}
+graphviz.org.
+\newblock Graphviz - graph visualization software.
+\newblock \url{http://www.graphviz.org/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{handh}
+R.~Hadany and D.~Harel.
+\newblock A muli-scale algorithm for drawing graphs nicely.
+\newblock {\em Discrete Applied Mathematics}, 113(1):3--21, 2001.
+
+\bibitem{herman00}
+Ivan Herman, Guy Melancon, and Marshall M.~Scott.
+\newblock Graph visualization and navigation in information visualization: A
+  survey.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  6(1):24--43, 2000.
+
+\bibitem{kobourov}
+S.G. Kobourov and K.~Wampler.
+\newblock Non-euclidean spring embedders.
+\newblock {\em IEE Transactions on Visualization and Computer Graphics}, 11,
+  2005.
+
+\bibitem{1338}
+Stephen~G. Kobourov.
+\newblock Force-directed drawing algorithms.
+\newblock In {\em Handbook of Graph Drawing and Visualization}, pages 383--408,
+  October 2013.
+
+\bibitem{Krzywinski01092012}
+Martin Krzywinski, Inanc Birol, Steven~JM Jones, and Marco~A Marra.
+\newblock Hive plots—rational approach to visualizing networks.
+\newblock {\em Briefings in Bioinformatics}, 13(5):627--644, 2012.
+
+\bibitem{23102059}
+William Longabaugh.
+\newblock Combing the hairball with biofabric: a new approach for visualization
+  of large networks.
+\newblock {\em BMC Bioinformatics}, 13(○1):275, 2012.
+
+\bibitem{Marks91thecomputational}
+Joe Marks and Stuart Shieber.
+\newblock The computational complexity of cartographic label placement.
+\newblock Technical report, 1991.
+
+\bibitem{website:dictionary}
+MSDN.
+\newblock Dictionary<tkey, tvalue> class.
+\newblock
+  \url{https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.110).aspx}.
+\newblock [Online; Accessed 27-December-2014].
+
+\bibitem{website:Direct3D}
+MSDN.
+\newblock Directed3d.
+\newblock
+  \url{https://msdn.microsoft.com/en-us/library/windows/desktop/hh309466(v=vs.85).aspx}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:LINQ}
+MSDN.
+\newblock Linq (language-integrated query).
+\newblock \url{https://msdn.microsoft.com/en-us/library/bb397926.aspx}.
+\newblock [Online; Accessed 16-December-2014].
+
+\bibitem{website:VisualStudio}
+MSDN.
+\newblock Visua studio.
+\newblock \url{https://msdn.microsoft.com/sv-se/library/dn762121.aspx}.
+\newblock [Online; Accessed 16-December-2015].
+
+\bibitem{website:MSDN}
+MSDN.
+\newblock Visual c\#.
+\newblock \url{https://msdn.microsoft.com/en-us/vstudio/hh341490.aspx}.
+\newblock [Online; Accessed 15-December-2015].
+
+\bibitem{website:WindowsForms}
+MSDN.
+\newblock Windows forms.
+\newblock
+  \url{https://msdn.microsoft.com/en-us/library/dd30h2yb(v=vs.110).aspx}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:WPF}
+MSDN.
+\newblock Wpf.
+\newblock
+  \url{https://msdn.microsoft.com/en-us/library/aa970268(v=vs.110).aspx}.
+\newblock [Online; Accessed 16-December-2015].
+
+\bibitem{636718}
+T.~Munzner.
+\newblock H3: laying out large directed graphs in 3d hyperbolic space.
+\newblock In {\em Information Visualization, 1997. Proceedings., IEEE Symposium
+  on}, pages 2--10, Oct 1997.
+
+\bibitem{website:NodeXL}
+nodexl.codeplex.com.
+\newblock Nodexl: Network overview, discovery and exploration for excel.
+\newblock \url{http://nodexl.codeplex.com/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:OpenCL}
+NVIDIA.
+\newblock Opencl.
+\newblock \url{https://developer.nvidia.com/opencl}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:OpenAL}
+openal.org.
+\newblock Openal.
+\newblock \url{https://www.openal.org/}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:OpenGL}
+opengl.org.
+\newblock Opengl.
+\newblock \url{https://www.opengl.org/}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:graphx}
+panthernet.ru.
+\newblock Graphx fpr .net.
+\newblock \url{http://www.panthernet.ru/en/projects-en/graphx-en}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:pyveplot}
+pypi.python.org.
+\newblock pyveplot.
+\newblock \url{https://pypi.python.org/pypi/pyveplot/}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:python}
+python.org.
+\newblock python.
+\newblock \url{https://www.python.org/}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:R}
+r~project.org.
+\newblock What is r?
+\newblock \url{https://www.r-project.org/about.html}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{website:MSAGL}
+research.microsoft.com.
+\newblock Microsoft automatic graph layout.
+\newblock \url{http://research.microsoft.com/en-us/projects/msagl/}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{Schaffer:1996:NHC:230562.230577}
+Doug Schaffer, Zhengping Zuo, Saul Greenberg, Lyn Bartram, John Dill, Shelli
+  Dubs, and Mark Roseman.
+\newblock Navigating hierarchically clustered networks through fisheye and
+  full-zoom methods.
+\newblock {\em ACM Trans. Comput.-Hum. Interact.}, 3(2):162--188, June 1996.
+
+\bibitem{Shelley20121016}
+David~S. Shelley and Mehmet~Hadi Gunes.
+\newblock Gerbilsphere: Inner sphere network visualization.
+\newblock {\em Computer Networks}, 56(3):1016 -- 1028, 2012.
+\newblock (1) Complex Dynamic Networks (2) \{P2P\} Network Measurement.
+
+\bibitem{website:Silverlight}
+Microsoft Silverlight.
+\newblock Windows forms.
+\newblock \url{https://www.microsoft.com/silverlight/}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:Wikipedia}
+Wikipedia~\ the~free encyclopedia.
+\newblock Cosine similarity.
+\newblock \url{http://en.wikipedia.org/wiki/Cosine\_similarity}.
+\newblock [Online; Accessed 28-November-2014].
+
+\bibitem{website:wikipediaDOT}
+Wikipedia~\ the~free encyclopedia.
+\newblock Dot (graph description language).
+\newblock \url{https://en.wikipedia.org/wiki/DOT_(graph_description_language)}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:Wikipedia2}
+Wikipedia~\ the~free encyclopedia.
+\newblock Jaccard index.
+\newblock \url{http://en.wikipedia.org/wiki/Jaccard\_index}.
+\newblock [Online; Accessed 28-November-2014].
+
+\bibitem{website:Java}
+Wikipedia~\ the~free encyclopedia.
+\newblock Java(software platform).
+\newblock \url{https://en.wikipedia.org/wiki/Java_(software_platform)#History}.
+\newblock [Online; Accessed 16-December-2014].
+
+\bibitem{website:SugiyamaWiki}
+Wikipedia~\ the~free encyclopedia.
+\newblock Layered graph drawing.
+\newblock \url{https://en.wikipedia.org/wiki/Layered_graph_drawing}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:Dotnet}
+Wikipedia~\ the~free encyclopedia.
+\newblock .net framework.
+\newblock \url{https://en.wikipedia.org/wiki/.NET_Framework}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{tutteFD}
+William~T. Tutte.
+\newblock How to draw a graph.
+\newblock {\em Proc, London Math. Society}, 13(52):743--768, 1963.
+
+\bibitem{website:vtk}
+vtk.org.
+\newblock Vtk.
+\newblock \url{http://www.vtk.org/overview/}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{Ware}
+C.~Ware.
+\newblock Designing with a 2 1\\2 \-d attitude.
+\newblock {\em Information Design Journal}, 10, 2001.
+
+\bibitem{website:wisegeek}
+wisegeek.com.
+\newblock What are the differences between opengl® and direct3d?
+\newblock
+  \url{http://www.wisegeek.com/what-are-the-differences-between-opengl-and-direct3d.htm}.
+\newblock [Online; Accessed 21-December-2014].
+
+\bibitem{Wolfe}
+Harold~E. Wolfe.
+\newblock Introduction to non-euclidean geometry.
+\newblock {\em Dryden Press}.
+
+\bibitem{Geom1945}
+Harold~E. Wolfe.
+\newblock Introduction to non-euclidean geometry.
+\newblock 1945.
+
+\bibitem{website:wpftoolkit}
+wpftoolkit.codeplex.com.
+\newblock Extended wpf toolkite community edition.
+\newblock \url{https://wpftoolkit.codeplex.com/}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:graphxPG}
+wpftoolkit.codeplex.com.
+\newblock Graphx programming guide.
+\newblock
+  \url{https://spark.apache.org/docs/1.2.1/graphx-programming-guide.html}.
+\newblock [Online; Accessed 19-December-2014].
+
+\bibitem{website:yFilesSilverlight}
+yworks.com.
+\newblock yfiles for silverlight developer's guide.
+\newblock
+  \url{http://docs.yworks.com/yfilessilverlight/Index.html?topic=developers-guide/index.html}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:yFilesWPF}
+yworks.com.
+\newblock yfiles wpf developer's guide.
+\newblock
+  \url{http://docs.yworks.com/yfileswpf/Index.html?topic=developers-guide/index.html}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:yFilesDotNet}
+yworks.com.
+\newblock yfiles.net developer's guide.
+\newblock
+  \url{http://docs.yworks.com/yfilesdotnet/Index.html?topic=developers-guide/index.html}.
+\newblock [Online; Accessed 20-December-2014].
+
+\bibitem{website:yFiles}
+yworks.com.
+\newblock yworks - the diagramming company.
+\newblock \url{http://www.yworks.com/products/dotnet-platform}.
+\newblock [Online; Accessed 20-December-2014].
+
+\end{thebibliography}

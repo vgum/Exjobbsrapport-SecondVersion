@@ -1,0 +1,54 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Arising problems with growing data}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Edge and node crossing}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Labeling}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Situation awareness}{section.1.2}% 6
+\BOOKMARK [1][-]{section.1.3}{This thesis}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Visualization techniques and their theory}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Fundamental techniques}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Force-Directed}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Navigation through zooming}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Two-dimensional space}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{BioFabric}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{HivePlots}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.3}{TreeMap}{section.2.2}% 15
+\BOOKMARK [1][-]{section.2.3}{Three-dimensional space}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.3.1}{GerbilSphere}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.2}{H3: laying out large directed graphs in 3d hyperbolic space}{section.2.3}% 18
+\BOOKMARK [1][-]{section.2.4}{Looking forward}{chapter.2}% 19
+\BOOKMARK [0][-]{chapter.3}{Method}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Implementation}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.1.1}{Programming environment}{section.3.1}% 22
+\BOOKMARK [1][-]{section.3.2}{Evaluation}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Layout views}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Programming libraries}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{Data}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.4}{Data for layout views}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.5}{Data for evaluation of programming libraries}{section.3.2}% 28
+\BOOKMARK [0][-]{chapter.4}{Results}{}% 29
+\BOOKMARK [1][-]{section.4.1}{Library performance}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{Attribute matrix}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{Results from library tests}{section.4.1}% 32
+\BOOKMARK [1][-]{section.4.2}{Application}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.2.1}{Main application}{section.4.2}% 34
+\BOOKMARK [0][-]{chapter.5}{Discussion and Conclusions}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Which type of visualisation technique is then best suited to visualize big and complex networks?}{chapter.5}% 36
+\BOOKMARK [0][-]{chapter.A}{GraphElement}{}% 37
+\BOOKMARK [0][-]{chapter.B}{Parsers}{}% 38
+\BOOKMARK [0][-]{chapter.C}{Test data}{}% 39
+\BOOKMARK [0][-]{chapter.D}{Library evaluation}{}% 40
+\BOOKMARK [1][-]{subsection.D.0.1}{Libraries of interest}{chapter.D}% 41
+\BOOKMARK [2][-]{subsection.D.0.2}{Library selection for evaluation}{subsection.D.0.1}% 42
+\BOOKMARK [2][-]{subsection.D.0.3}{Test set up}{subsection.D.0.1}% 43
+\BOOKMARK [2][-]{subsection.D.0.4}{Results from library tests}{subsection.D.0.1}% 44
+\BOOKMARK [0][-]{chapter.E}{Implementation details.}{}% 45
+\BOOKMARK [1][-]{section.E.1}{Views}{chapter.E}% 46
+\BOOKMARK [2][-]{subsection.E.1.1}{Force-directed\(FD\) based view}{section.E.1}% 47
+\BOOKMARK [2][-]{subsection.E.1.2}{Two-dimensional view - BioFabric}{section.E.1}% 48
+\BOOKMARK [2][-]{subsection.E.1.3}{Three-dimensional view - GerbilSphere}{section.E.1}% 49
+\BOOKMARK [1][-]{section.E.2}{Data representation}{chapter.E}% 50
+\BOOKMARK [2][-]{subsection.E.2.1}{GraphElement}{section.E.2}% 51
+\BOOKMARK [2][-]{subsection.E.2.2}{Data representation within application - DataManager}{section.E.2}% 52
+\BOOKMARK [2][-]{subsection.E.2.3}{Data parsers}{section.E.2}% 53
+\BOOKMARK [0][-]{section*.27}{References}{}% 54

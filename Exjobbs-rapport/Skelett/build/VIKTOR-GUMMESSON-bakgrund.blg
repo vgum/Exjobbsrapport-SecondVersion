@@ -1,0 +1,26 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: C:\Users\VGUXT8\Documents\VisualizeSystem\Exjobb-rapport\Delar\TeoriBakgrund\\build\VIKTOR-GUMMESSON-bakgrund.aux
+The style file: plain.bst
+Database file #1: C:/Users/VGUXT8/Documents/VisualizeSystem/Exjobb-rapport/Delar/TeoriBakgrund/refs.bib
+I was expecting a `,' or a `}'---line 243 of file C:/Users/VGUXT8/Documents/VisualizeSystem/Exjobb-rapport/Delar/TeoriBakgrund/refs.bib
+ :     
+ :     pages    = "255--262",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 252 of file C:/Users/VGUXT8/Documents/VisualizeSystem/Exjobb-rapport/Delar/TeoriBakgrund/refs.bib
+ :     
+ :     pages    = "757--767",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 260 of file C:/Users/VGUXT8/Documents/VisualizeSystem/Exjobb-rapport/Delar/TeoriBakgrund/refs.bib
+ :  
+ :  year      = "1945"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Name 2 in "Christopher Mueller and Benjamin Martin, and Andrew Lumsdaine" has a comma at the end for entry mueller07
+while executing---line 1049 of file plain.bst
+Warning--empty institution in Marks91thecomputational
+Name 2 in "Christopher Mueller and Benjamin Martin, and Andrew Lumsdaine" has a comma at the end for entry mueller07
+while executing---line 1090 of file plain.bst
+Warning--empty year in Wolfe
+Warning--empty journal in Geom1945
+(There were 5 error messages)

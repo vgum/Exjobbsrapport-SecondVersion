@@ -1,0 +1,168 @@
+\begin{thebibliography}{10}
+
+\bibitem{4015435}
+T.~Buring, J.~Gerken, and H.~Reiterer.
+\newblock Ipsep-cola: An incremental procedure for separation constraint layout
+  of graphs.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  12(5):821--828, Sept 2006.
+
+\bibitem{1337}
+Goodrich Duncan.
+\newblock Planar orthogonal and polyline drawing algorithms.
+\newblock In {\em Handbook of Graph Drawing and Visualization}, pages 223--246,
+  October 2013.
+
+\bibitem{ead}
+Peter Eades.
+\newblock A heuristic for graph drawing.
+\newblock {\em Congressus Numerantium}, 42:149--160, 1984.
+
+\bibitem{195097}
+M.R. Endsley.
+\newblock Situation awareness global assessment technique (sagat).
+\newblock In {\em Aerospace and Electronics Conference, 1988. NAECON 1988.,
+  Proceedings of the IEEE 1988 National}, pages 789--795 vol.3, May 1988.
+
+\bibitem{fr}
+T.~Fruchterman and E.~Reingold.
+\newblock Graph drawing by force-directed placement.
+\newblock {\em Softw. - Pract. Exp.}, 21(11):1129--1164, 1991.
+
+\bibitem{handh}
+R.~Hadany and D.~Harel.
+\newblock A muli-scale algorithm for drawing graphs nicely.
+\newblock {\em Discrete Applied Mathematics}, 113(1):3--21, 2001.
+
+\bibitem{herman00}
+Ivan Herman, Guy Melancon, and Marshall M.~Scott.
+\newblock Graph visualization and navigation in information visualization: A
+  survey.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
+  6(1):24--43, 2000.
+
+\bibitem{6137234}
+U.~Kang and C.~Faloutsos.
+\newblock Beyond 'caveman communities': Hubs and spokes for graph compression
+  and mining.
+\newblock In {\em Data Mining (ICDM), 2011 IEEE 11th International Conference
+  on}, pages 300--309, Dec 2011.
+
+\bibitem{kobourov}
+S.G. Kobourov and K.~Wampler.
+\newblock Non-euclidean spring embedders.
+\newblock {\em IEE Transactions on Visualization and Computer Graphics}, 11,
+  2005.
+
+\bibitem{1338}
+Stephen~G. Kobourov.
+\newblock Force-directed drawing algorithms.
+\newblock In {\em Handbook of Graph Drawing and Visualization}, pages 383--408,
+  October 2013.
+
+\bibitem{Krzywinski01092012}
+Martin Krzywinski, Inanc Birol, Steven~JM Jones, and Marco~A Marra.
+\newblock Hive plots—rational approach to visualizing networks.
+\newblock {\em Briefings in Bioinformatics}, 13(5):627--644, 2012.
+
+\bibitem{6754046}
+Zhiyuan Lin, Nan Cao, Hanghang Tong, Fei Wang, U.~Kang, and Duen~Horng Chau.
+\newblock Demonstrating interactive multi-resolution large graph exploration.
+\newblock In {\em Data Mining Workshops (ICDMW), 2013 IEEE 13th International
+  Conference on}, pages 1097--1100, Dec 2013.
+
+\bibitem{23102059}
+William Longabaugh.
+\newblock Combing the hairball with biofabric: a new approach for visualization
+  of large networks.
+\newblock {\em BMC Bioinformatics}, 13(○1):275, 2012.
+
+\bibitem{Marks91thecomputational}
+Joe Marks and Stuart Shieber.
+\newblock The computational complexity of cartographic label placement.
+\newblock Technical report, 1991.
+
+\bibitem{6295813}
+C.~Mikkelsen, J.~Johansson, and M.~Cooper.
+\newblock Visualization of power system data on situation overview displays.
+\newblock In {\em Information Visualisation (IV), 2012 16th International
+  Conference on}, pages 188--197, July 2012.
+
+\bibitem{mueller07}
+Christopher Mueller, Benjamin Martin, and Andrew Lumsdaine.
+\newblock A comparison of vertex ordering algorithms for large graph
+  visualization.
+\newblock {\em 2007. APVIS '07. 2007 6th International Asia-Pacific Symposium
+  on Visualization}, pages 141--148, 2007.
+
+\bibitem{636718}
+T.~Munzner.
+\newblock H3: laying out large directed graphs in 3d hyperbolic space.
+\newblock In {\em Information Visualization, 1997. Proceedings., IEEE Symposium
+  on}, pages 2--10, Oct 1997.
+
+\bibitem{Schaffer:1996:NHC:230562.230577}
+Doug Schaffer, Zhengping Zuo, Saul Greenberg, Lyn Bartram, John Dill, Shelli
+  Dubs, and Mark Roseman.
+\newblock Navigating hierarchically clustered networks through fisheye and
+  full-zoom methods.
+\newblock {\em ACM Trans. Comput.-Hum. Interact.}, 3(2):162--188, June 1996.
+
+\bibitem{Shelley20121016}
+David~S. Shelley and Mehmet~Hadi Gunes.
+\newblock Gerbilsphere: Inner sphere network visualization.
+\newblock {\em Computer Networks}, 56(3):1016 -- 1028, 2012.
+\newblock (1) Complex Dynamic Networks (2) \{P2P\} Network Measurement.
+
+\bibitem{snajberk12}
+Jaroslav Snajberk, Lukas Holy, and Premek Brada.
+\newblock Aiva vs uml: Comparison of component application visualizations in a
+  case study.
+\newblock {\em Information Visualisation (IV), 2012 16th International
+  Conference on}, pages 54--61, 2012.
+
+\bibitem{eick96}
+G.~Eick Stephen.
+\newblock Aspects of network visualization.
+\newblock {\em Computer Graphics and Applications, IEEE}, 16(2):69--72, 1996.
+
+\bibitem{4388998}
+D.R. Tesone and J.R. Goodall.
+\newblock Balancing interactive data management of massive data with
+  situational awareness through smart aggregation.
+\newblock In {\em Visual Analytics Science and Technology, 2007. VAST 2007.
+  IEEE Symposium on}, pages 67--74, Oct 2007.
+
+\bibitem{website:Wikipedia}
+Wikipedia~\ the~free encyclopedia.
+\newblock Cosine similarity.
+\newblock \url{http://en.wikipedia.org/wiki/Cosine\_similarity}.
+\newblock [Online; Accessed 28-November-2014].
+
+\bibitem{website:Wikipedia2}
+Wikipedia~\ the~free encyclopedia.
+\newblock Jaccard index.
+\newblock \url{http://en.wikipedia.org/wiki/Jaccard\_index}.
+\newblock [Online; Accessed 28-November-2014].
+
+\bibitem{tutteFD}
+William~T. Tutte.
+\newblock How to draw a graph.
+\newblock {\em Proc, London Math. Society}, 13(52):743--768, 1963.
+
+\bibitem{Ware}
+C.~Ware.
+\newblock Designing with a 2 1\\2 \-d attitude.
+\newblock {\em Information Design Journal}, 10, 2001.
+
+\bibitem{Wolfe}
+Harold~E. Wolfe.
+\newblock Introduction to non-euclidean geometry.
+\newblock {\em Dryden Press}.
+
+\bibitem{Geom1945}
+Harold~E. Wolfe.
+\newblock Introduction to non-euclidean geometry.
+\newblock 1945.
+
+\end{thebibliography}
