@@ -39,7 +39,7 @@
 
 \title{A comparison of visualisation techniques for complex networks}
 
-\subtitle{En j\"amnf\"orelse av visualiseringsmetoder f\"or komplexa n\"atverk}
+\subtitle{En j\"amf\"orelse av visualiseringsmetoder f\"or komplexa n\"atverk}
 \author{Viktor Gummesson\\ \lowercase{vgum@kth.se}}
 \blurb{Master's Thesis in Computer Science\\Royal Institute of Technology\\[5pt]Supervisor, KTH: Olov Engwall\\Examiner: \selectlanguage{Swedish} Olle B\"{a}lter\\Project commissioned by: Scania\\Supervisor at Scania: Magnus Kylleg\aa rd}
 
@@ -50,26 +50,18 @@
 \maketitle
 \selectlanguage{english}
 \begin{abstract}
-The need to visualise big sets of data and netowrks within a company is a well-known task. In this thesis, research has been done of techniques used to visualize complex networks in order to find out if there is a 
+The need to visualise big sets of data and networks within a company is a well-known task. In this thesis, research has been done of techniques used to visualize complex networks in order to find out if there is a 
 generalized optimal technique that can visualize complex networks.
 
-For this purpose an application was implemented containing three different views, that were selected from the research done on the subject. As it turns out, it points toward that there is no one generalized optimal 
-technique one can default use to visualize complex networks in a satisfactory way. A definite conclusion could not be given because of that all different visualization techniques that exists could obviously not be 
-evaluated within the time constraint of this thesis.
+For this purpose an application was implemented containing three different views, that were selected from the research done on the subject. As it turns out, it points toward that there is no generalized optimal 
+technique which can be used to default visualize complex networks in a satisfactory way. A definit conclusion could not be given due to the fact that all visualization techniques which excist could not be
+evaluated within this thesis timeframe.
 \end{abstract}
 \clearpage
 \begin{foreignabstract}{swedish}
-Behovet av att visualisera data inom ett bolag \"ar ett v\"alk\"ant behov. I
-denna avhandling har forskning genomf\"orts av tekniker anv\"anda f\"or att
-visualisera komplexa n\"atverk f\"or att finna om det existerar en generell
-optimal teknik som kan anv\"andas vid visualisering av komplexa n\"atverk.
-F\"or detta \"andam\aa l implementerades en applikation som hade tre
-olika vyer, som var valda utifr\aa n den forskning gjord p\aa \space omr\aa det. Det
-visade sig att det pekar \aa t h\aa llet att det inte existerar en generell
-optimal teknik en kan anv\"anda f\"or att visualisera komplexa n\"atverk p\aa \space
-ett tillfredsst\"allande s\"att. En definitiv slutsats kunde inte ges eftersom
-alla existerande visualiseringstekniker kunde uppenbarligen inte bli
-utv\"arderade inom tidsramen f\"or denna avhandling.
+Behov av att visualisera data inom bolag \"ar ett k\"ant faktum, denna avhandling har anv\"ant olika tekniker f\"or att unders\"oka om det existerar en generell optimal teknik som kan till\"ampas vid visualisering av komplexa n\"atverk.
+ Vid genomf\"orandet implementerades en applikation med tre olika vyer, de valdes ut baserat p\aa \space forskning inom det valda omr\aa det. Resultatet visade att det inte existerar en generell optimal teknik som kan till\"ampas vid
+ visualisering av komplexa n\"atverk, det medf\"or att en definitiv slutsats inte uppn\aa s. Det p\aa \space grund av att alla de visualiseringstekniker som existerar inte kunde unders\"okas inom avhandlingens tidram.
 \end{foreignabstract}
 \clearpage
 \tableofcontents*
@@ -82,22 +74,22 @@ To be able to visualize different networks is an important part in many fields, 
 displaying relations in a social network, molecular biology that study the interactions between various systems of cells, e.t.c.
 
 There are different approaches to take when visualizing networks. The most traditional approach is to represent the network as some kind of graph, because many structures in different scientific fields can be represented
-as a node-link graphs. Where nodes represents different components and are visualized with a shape and edges represents different components relations and are visualized by a connecting line between two nodes.
+as a node-link graphs. Where nodes represents different components which are visualized with a shape and edges represents different components relations which are visualized by a connecting line between two nodes.
 
 \section{Arising problems with growing data}
-Though the traditional ways of visualizing graphs are pleasing and give an intuitive way of looking at relations, there arises problems when the networks that need to be visualized are of a bigger size. The traditional
-ways may be sufficient when dealing with networks of small sizes of nodes and relations, but what happens when the networks become complex and have hundreds or thousands of nodes?
+Though the traditional ways of visualizing graphs are pleasing and give an intuitive way of looking at relations, there are problems which can arise when the networks that needs to be visualized are of a larger size. The traditional
+way may be sufficient when dealing with networks of small sizes of nodes and relations, but what will happen when the networks become complex and have hundreds or thousands of nodes?
 \subsection{Edge and node crossing}
-When the node count becomes larger the area dedicated to layout these becomes smaller. This can contribute to that nodes start to overlap etch other, making it hard to distinguish between a set of different nodes.
+When the node count becomes larger, the area dedicated to layout these nodes becomes smaller. This can contribute to nodes starting to overlap each other, making it hard to distinguish between a set of different nodes.
 
 A similar problem arises concerning edges. Depending on the layout of the nodes a different amount of edges may overlap, crossing each other. This may not be a problem if the number of crossings is low or the angle between 
 two edges is high. But when this angle decreases and the number of crossings increases it becomes harder to distinguish between specific edges, to see which edge connects to which node. If the relations are of a large enough size the cluster of edges
-may become as just one big black area.
+may become one big black area.
 
 When dealing with layout techniques one strives to layout the nodes in a way that minimize node- and edge crossings.
 \subsection{Labeling}
-Labeling nodes and edges in a network becomes more challenging as the network grows. In fact the optimal label placement of a graph has been shown to be NP-Complete\cite{Marks91thecomputational}.
-One can see the task of labeling to be divided in to three different labeling tasks:
+Labeling nodes and edges in a network become more challenging as the network grows. In fact the optimal label placement of a graph has been shown to be NP-Complete\cite{Marks91thecomputational}.
+The task of labeling can be divided into three different labeling tasks:
 \begin{itemize}
 	\item{Labeling area features (clusters).}
 	\item{Labeling line features (edges).}
@@ -111,7 +103,7 @@ the projection of their status into the near future}
 \end{quote}
 Situation awareness becomes important to consider when choosing visualisation technique.
 
-Figure \ref{fig:hair_ball} shows  what can happend when trying to visualize big networks.
+Figure \ref{fig:hair_ball} shows  what can happen when trying to visualize big networks.
 
 \newpage
 \begin{figure}[!htbp]
@@ -143,7 +135,7 @@ generated, that is navigation such as zooming and panning.
 \subsection{Force-Directed}
 Force-directed is a popular class for a type of algorithm for calculating layouts of graphs. They are constructed to strive towards generating graphs with node positions so that edges in the graph are of equal length and the layout
 displays as much symmetry as possible. One of the pros with these algorithms is that they are flexible, they do not rely on domain specific knowledge but instead only use the information contained within the structure of the graph. Graphs produced
-by these algorithms tend to be aesthetically pleasing and exhibit symmetries\cite{1338}. Figure \ref{fig:force_directed_ex1} shows an example of an graph drawn with a force-directed algorithm.
+by these algorithms tend to be aesthetically pleasing and exhibit symmetries\cite{1338}. Figure \ref{fig:force_directed_ex1} shows an example of a graph drawn with a force-directed algorithm.
 
 \begin{figure}[!htbp]
 	\centering
@@ -154,7 +146,7 @@ by these algorithms tend to be aesthetically pleasing and exhibit symmetries\cit
 
 These algorithms are based on assigning forces between nodes and edges in a graph, simulating the motion of the edges and nodes or minimize their energy. One of the first force-directed algorithm dates back to 1963 with 
 the algorithm of Tutte\cite{tutteFD} and is based on barycentric representation\cite{1338}. Though the more commonly used algorithms such as Eades\cite{ead} and Fruchterman and Reingold\cite{fr} both rely on spring forces similar to those in
-Hooke's law. Here there are repulsive forces between all the nodes in a graph while in the same time attractive forces between nodes and there neighbours. As in the Eades algorithm \cite{1338} where
+Hooke's law. Here there are repulsive forces between all the nodes in a graph while in the same time attractive forces between nodes and their neighbours. As in the Eades algorithm \cite{1338} where
 they have an initial random layout of nodes. Having nodes represented as steel strings and edges as springs. Then letting the system move towards a state where minimal energy between 
 nodes are achieved.
 
@@ -171,7 +163,7 @@ cover this by using a bit of a different physical model, seeing the vertices in 
 \emph{\math f_{r}(d)=\frac{-k^2}{d}}
 \\
 \end{mathsurround}
-Where d is the actual distance between two vertices and k is th optimal distance. K is defined as:\\
+Where d is the actual distance between two vertices and k is the optimal distance. K is defined as:\\
 \begin{mathsurround}
 \\
 \emph{\math k=C\sqrt{\frac{area}{number of vertices}}}
@@ -180,8 +172,8 @@ Where d is the actual distance between two vertices and k is th optimal distance
 
 Besides from this the algorithm also uses the notion of temperature as a refining step. This works so that when the algorithm improves the layout the adjustments become smaller from the last iteration of the algorithm.
  
-As the graph size grows bigger, graphs with more than a few hundred vertices, a problem arises with the basic force-directed algorithms. The fact is that the used physical model has multiple local minima, and a graph produced
-with only a local minima can be much worse than would it be produced with the global minima. There have been developed algorithms to try and avoid local minima, such as the Hadany and Harel algorithm \cite{handh}, which is based on
+As the graph size grows larger, graphs with more than a few hundred vertices, a problem arises with the basic force-directed algorithms. The fact is that the used physical model has multiple local minima, and a graph produced
+with only a local minima can be much worse than would it be produced with the global minima. Algorithms have been developed trying to avoid local minima, such as the Hadany and Harel algorithm \cite{handh}, which is based on
 a multi-level layout technique that works with graphs containing 15000 vertices. 
 
 In multi-level techniques the graph structure that is to be drawn is viewed in substructures where each substructure has less complexity then the whole. These substructures are then laid out in order from the most simple 
@@ -196,18 +188,18 @@ on a high enough level to give any real information. So to get out more detailed
 Causing one to easier lose orientation and information of the overall dependencies when the context is lost.
 
 FishEye view is a technique that address this problem of tunnel vision. One can compare the technique to a fisheye lens used by cameras for the creation of wide panoramic images. The techniques allows one to show high detail
-at focus while displaying less and less detail about information that are further away from focus, how much depending on how far away it lies. Figure \ref{fig:FishEye} shows an example of this. Extra effective this becomes if the data one works with has a clear structure so
+at focus while displaying less and less detail about information that are further away from focus, how much depends on how far away it lies. Figure \ref{fig:FishEye} shows an example of this. Extra effective this becomes if the data one works with has a clear structure so
 that one can cluster this data.
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[scale=0.3]{FishEyeEiffel}
-	\caption{Picture of the Eiffel Tower displaying the fisheye effect. Where the base of the tower are in focus and one can see some details while still the whole tower is in the picture.}
+	\caption{Picture of the Eiffel Tower displaying the fisheye effect. Here the base of the tower is in focus, showing details of the base while still having the whole tower in the picture.}
 	\label{fig:FishEye}
 \end{figure}
 
-Next we show an implementation where a FishEye method was used that was done from \cite{Schaffer:1996:NHC:230562.230577}, there they assume that the nodes are represented by squares and that no 
-overlapping of nodes is present. It is based on data that is clustered in a way that one node can contain a subset of different nodes. Figure \ref{fig:FishEyeCluster} shows an example of such a graph and a 
+\cite{Schaffer:1996:NHC:230562.230577} used the FishEye method while navigating networks where nodes was represented by squares and  
+nodes did not overlapp each other. The data used was clustered in a way that one node could contain a subset of different nodes. Figure \ref{fig:FishEyeCluster} shows an example of such a graph and a 
 possible clustering of it.
 
 \begin{figure}[!htbp]
@@ -217,18 +209,18 @@ possible clustering of it.
 	\label{fig:FishEyeCluster}
 \end{figure}
 
-When zooming one actually zooms a node/nodes (cluster/clusters). This translate into the FishEye view that the zooming node/nodes are in focus, getting larger, and the
-other node/nodes being outside focus and are getting shrunken. Figure \ref{fig:FishEyeZoom} shows an example of a graph before a zooming action and after.
+When zooming one actually zooms a node/nodes (cluster/clusters). This translate into the FishEye view where the zoomied node/nodes are in focus, getting larger, and the
+other node/nodes being outside focus are getting shrunken. Figure \ref{fig:FishEyeZoom} shows an example of a graph before a zooming action and after.
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[scale=0.3]{FishEyeZoom}
-	\caption{Example of graph when zoomed. Left hand shows the graph before zooming and which segments are being enlarge and which are being shrunken. Right hand shows the graph after zoom.}
+	\caption{Example of graph when zoomed (element b and a selected for zooming). Left hand side shows the graph before zooming and which segments are being enlarge and which are being shrunken. Right hand side shows the graph after zooming.}
 	\label{fig:FishEyeZoom}
 \end{figure}
 \newpage
 \section{Two-dimensional space}
-Next we will introduce methods used to visualize large networks in the two-dimensional space. One benefit when using a layout in 
+This chapter introduce methods used to visualize large networks in a two-dimensional space. One benefit when using a layout in 
 the two-dimensional space is that one can get away from the problem of nodes concealing each other. 
 \subsection{BioFabric}
 BioFabric\cite{23102059} is a method that uses a different approach to represent a graph than the traditional way where one represents nodes
@@ -253,9 +245,9 @@ Node assignment:
 		  assign it to the next available row. Make that row the
 		  current row; increment the next available row.
 	\item Take the node assigned to the current row and
-		  order its neighbors based upon their degree, highest
+		  order its neighbours based upon their degree, highest
 		  degree first.
-	\item Traversing the neighbor nodes using that order, if the
+	\item Traversing the neighbour nodes using that order, if the
 		  node has not yet been assigned, assign it to the next
 		  available row and increment the next available row.
 	\item Increment the current row. If a node has been assigned
@@ -296,15 +288,15 @@ The key feature of the BioFabric presentation is that nodes are depicted as hori
 each arranged in a unique column. Note how the use of darker colors for rendering edges and lighter colors for rendering nodes insures that the
 former stand out despite the crossover. A) The view of the full network, laid out with the default algorithm. B) Detail of network shown boxed in
 network A, which highlights one advantage of the BioFabric presentation technique: similarities, and differences, in the connectivity of different
-nodes are immediately apparent. C) The six nodes and first neighbors depicted in a subset view, where all extra space has been squeezed out,
+nodes are immediately apparent. C) The six nodes and first neighbours depicted in a subset view, where all extra space has been squeezed out,
 creating a compact presentation that still retains all the relative positioning from the full view. Note how the full inventory of edges incident on
 the six nodes also includes those on the left originating from higher node rows.}
 	\label{fig:bio_default}
 \end{figure}
 
 
-One can also use approaches that try to group nodes based on similarity and difference between their connectivity. The way to
-represent similarity could be to use cosine similarity\cite{website:Wikipedia} or Jaccard similarity\cite{website:Wikipedia2}. Figure \ref{fig:bio_sim} shows a network visualized using 
+Other approaches that can be used are to try to group nodes based on similarity and difference between their connectivity. The way to
+represent similarity could be to use cosine similarity\cite{website:Wikipedia} or Jaccard similarity\cite{website:Wikipedia2}. Figure \ref{fig:bio_sim} shows a network visualized 
 using similarity weights, resulting in a less compact layout than the basic approach.
 
 BioFabric has one release which is an open-source Java application with some documentation that can be found at\cite{website:biofabricdoc}. Though BioFabric is built on a relatively easy and intuitive algorithm, one could
@@ -320,7 +312,7 @@ take the option of implementing an own version. Having their own customized feat
 \end{figure}
 
 \subsection{HivePlots}
-HivePlots is a visualisation algorithm that uses a number of radially oriented linear axes that have a coordinate system that is based on nodes properties. A networks nodes are layed out on these axes. Connecting nodes are
+HivePlots is a visualisation algorithm that uses a number of radially oriented linear axis that have a coordinate system that is based on nodes properties. A networks nodes are layed out on these axes. Connecting nodes are
 shown with edges between them, visualized as curves between nodes. Figure \ref{fig:hive_plot} shows an example of a HivePlot.
 
 \begin{figure}[!htbp]
@@ -330,8 +322,8 @@ shown with edges between them, visualized as curves between nodes. Figure \ref{f
 	\label{fig:hive_plot}
 \end{figure}
 
-Initially before the layout is made a number of structural parameters are calculated. Such as degree, flow, Page rank, clustering coefficient etc. Which parameters to use is up to the user to decide to fit with the network to be
-visualized. For example one would use the clustering coefficient to distinguish between hubs and clusters. Next these parameters are used to set up rules that are used to assign nodes to an axis and decide its coordinate. These rules
+Initially before the layout is made a number of structural parameters are calculated. Such as degree, flow, pagerank, clustering coefficient etc. Which parameters to use is up to the user to decide, they need to be appropriate for the network
+being visualized. For example one could use the clustering coefficient to distinguish between hubs and clusters. Next these parameters are used to set up rules that are used to assign nodes to an axis and decide its coordinate. These rules
 are often boolean rules. Example of rules could be: \
 \begin{itemize}
 	\item{Is the node a sink?}
@@ -342,17 +334,17 @@ are often boolean rules. Example of rules could be: \
 
 If a HivePlot can be created with three axes this is preferred \cite{Krzywinski01092012}, laying the axis with a uniform radial distribution. Because with three axis you get a layout that is edge crossing free. In addition to this 
 three axis makes it possible for each edge between each axis pair not to cross another axis. Though this is not restrained to only three axis, it can be hard to partition nodes to axis so that nodes on axis are only connected
-to neighbouring axes.
+to neighbouring axis.
 
 For hive plots there are some choices of use, one used is a Java based library \cite{website:JHive}. There are also libraries for R\cite{website:R}, HiveR\cite{website:HiveR}, that supports hive plots in the two-dimensional and three-dimensional space.
 The framework D3.JS\cite{website:D3JS} is an other option that is a JavaScript to create hive plots. And pyveplot\cite{website:pyveplot} that is a library for hiveplots in Python\cite{website:python}.
 \subsection{TreeMap}
 TreeMap is a technique to present graphs in sequences of nested boxes \cite{herman00}. TreeMap requires the data to be hierarchy structured as a tree. Figure \ref{fig:tree_map_ex} shows an example. The size of individual boxes becomes significant in 
 a TreeMap layout, where the user specifies how they should grow. Take for example if figure \ref{fig:tree_map_ex} shows data that represents a file system. The size of a box could then be proportional to the size of the file it represents. The colors of the boxes 
-represents the hierarchy, same color of boxes belongs to the same file.
+represent the hierarchy, same color of boxes belong to the same file.
 
-For Treemaps there is some choices for use. For .Net, which is this thesis working environment, there is the WPF Treemaps \& SquarifiedTreeMaps control library\cite{website:WPFTreeMaps}, though it has poor documentation.
- Another alternative is the .NET Treemap Control library\cite{website:devxTreeMap}. Here again the problem lies in little documentation and hard to get information about the library where this was part of an old Microsoft
+For Treemaps there are some choices to use. For .Net, which is this thesis working environment, there is the WPF Treemaps \& SquarifiedTreeMaps control library\cite{website:WPFTreeMaps}, though it has poor documentation.
+ Another alternative is the .NET Treemap Control library\cite{website:devxTreeMap}. Here again the problem lies in little documentation and it is hard to get information about the library when it was part of an old Microsoft
  research project called Netscan.
 \begin{figure}[!htbp]
 	\centering
@@ -360,10 +352,11 @@ For Treemaps there is some choices for use. For .Net, which is this thesis worki
 	\caption{Example of a Tree-map}
 	\label{fig:tree_map_ex}
 \end{figure}
+\newpage
 \section{Three-dimensional space}
 In the hope of acquire more space for the layout of a network one can take the approach to go from a 2D to a 3D environment. In other words one can strive to get away from the euclidean space to another space that provides more space.
- An important aspect that follows going to a 3D view is that the system should be nagivatable. This because in a 3D view, node and edge occlusions is bound to happen. Being able to change one view by navigating one can find a 
- view of ones perspective that is without occlusions.
+ An important aspect that follows going to a 3D view is that the system should be nagivatable. This because in a 3D view, node and edge occlusion is bound to happen. Being able to alter a view by navigating becomes an important tool 
+ that helps to find a view where no occlusions occur.
 \subsubsection{Hyperbolic space}
 The hyperbolic space has the property that it has more room compared to the familiar euclidean space \cite{636718}. \cite{Wolfe} states that the fifth postulate in the Euclidean plane geometry can be formulated as: 
 \begin{quote}
@@ -394,11 +387,11 @@ to do this have been created. Best known are the Klein and the Poincar\'e  model
 There have been studies on 2D vs 3D user interfaces that have shown that in many cases 2D exceeds 3D. Though the more space in 3D is still compelling. GerbilSphere is an inner sphere 2D system that tries to 
 use the benefits from both a 2D approach as well as a 3D approach.
 
-GerbilSphere works in a way that it lets the observer be able to places themselves inside a sphere while projecting the network on the surface of the sphere. As part of the layout, GerbilSphere uses an extended version of the
+GerbilSphere works in a way that it place the observer inside a sphere while projecting the network on to the surface of the sphere. As part of the layout, GerbilSphere uses an extended version of the
  Fruchterman and Reingold force-directed algorithm to apply to the three dimensional space. However this is not enough to work on the surface of a sphere. To apply the forces to the surface of a sphere, GerbilSphere uses a 
  algorithm described by Kobeourov and Wampler \cite{kobourov}. For more technical information about the data structure and how their layout algorithm works see \cite{Shelley20121016}.
 
-Zooming in GerbilSphere is viewed as having a world camera attached to one end of a tether and having the other end attached to the center of the sphere. Zooming in and out can be seen as moving the world camera along this 
+Zooming in GerbilSphere is viewed as having a world camera attached to one end of a tether and having the other end attached to the center of the sphere. When zooming in and out it can be seen as moving the world camera along this 
 tether. Figure \ref{fig:gerbil_zoom} shows when zoomed out respectively zoomed in.
 \begin{figure}[!htbp]
 	\centering
@@ -453,37 +446,38 @@ When this thesis has been done within a time constraint all relative methods of 
 taken so that no major or relevant visualisation method gets overlooked. With the information presented in this chapter as a basis, the visualisation techniques of the highest relevance will be
  chosen for evaluation.
 \subsubsection{Space}
-One big choice of consideration is in what space is one to use for displaying their data? In this chapter the reader were introduced to a number of different spaces where also different
- visualisation methods have been evaluated with specific data as described.
+One important choice of consideration is in which space should the networks be displayed? In this chapter the reader were introduced to a number of different spaces where also different
+ visualisation methods have been evaluated with specific data as described. One can conclude that the two most common spaces, the two- and three-dimensional space, are of great importance and need
+ to be included for this thesis purpose.
 
-One can conclude that the two most common spaces, the two- and three-dimensional space are of great importance and need to be included for this thesis purpose. Depending on which visualisation 
-technique one chooses to use, they will have different aspects and characteristics that have different behaviours depending on which space one uses. Which can then be compared for evaluation purposes.
-Such as how layout of nodes and edges differs and what impact the space has on zooming and panning. Also how label clutter behave in these spaces may be of interest.
+Different visualisation techniques will behave differently and result in having different aspects and characteristics depending on which space one uses. These can then be compared for evaluation purposes,
+such as how layout of nodes and edges differs and what impact the space has on zooming and panning. Also how label clutter behave in different spaces may be of interest.
 
 \subsubsection{Layout method}
-When it comes to choosing which layout methods to evaluate, the same aspects mentioned in the previous section needs to be considered here as well. Which layout method one chooses to use can have a big 
-impact on these aspects. Their results may also differ depending on which space one use and needs to be taken into consideration.
-
-In addition to the effects on visualisation from different selection on spaces and layout methods there are other more practical aspects to be considered. Aspects revolving around one enforcing some pretension
- on the performance of the chosen methods implemented. This to ensure smooth usage so that a slow visualisation application will not impact the result in a negative way when evaluating a visualisation technique.
- More about this in section \ref{sec:evaluation}.
+When it comes to choosing which layout methods to evaluate, the same aspects mentioned in the previous section needs to be considered here as well. Which layout method one chooses to use can have a hugh 
+impact on these aspects. Their results may also differ depending on which space one use and it needs to be taken into consideration.
  
 \subsubsection{Chosen views}
 \label{chosen-views}
 From the research and study in this chapter a selection narrowed down to three different views where made to be used for a implementation of an application. In this selection both the two-dimensional and the 
 three-dimensional space were covered. We will show the resulting application and for each view give an account of why that view where selected and how it was implemented in \ref{sec:application}.
 
+\subsubsection{Technical aspects}
+In addition to the effects on visualisation from different selection on spaces and layout methods there are other more practical aspects to be considered. Aspects revolving around one enforcing some pretension
+ on the performance of the chosen methods implemented. This to ensure smooth usage so that a slow visualisation application will not impact the result in a negative way when evaluating a visualisation technique.
+ More about this in section in the next chapter and appendix \ref{app:library:evaluation}.
+ 
 \chapter{Method}
 \label{chap:three}
 When one is to display data using graphs one is confronted with the task of choosing between a large range of different visualisation techniques.
-This chapter is intended to show how which methods and areas have been chosen to be investigated for this thesis. In section \ref{sec:application} 
-the the way found to implement these choices for further evaluation is shown. In section \ref{sec:evaluation} the way taken for evaluation is described.
+This chapter is intended to show the prosess used to decide which methods and areas to be investigated for this thesis. In section \ref{sec:Implementation} 
+the way found to implement these choices for further evaluation is shown. In section \ref{sec:evaluation} the way taken for evaluation is described.
 \section{Implementation}
 \label{sec:Implementation} 
 It is difficult to compare and evaluate different visualisation techniques only on the information found in scientific thesis and books concerning them. 
-One cause to this arises when one looks at the data used. Different theses use different data, often different kinds of data even. In some cases data might seem bias, having been chosen to fit better with the 
+One cause to this arises when one looks at the data used, different theses use different data. In some cases data might seem bias, having been chosen to fit better with the 
 visualisation method concerned for the purpose of that particular thesis, making it hard to compare performance between techniques. Different visualisation methods perform differently on different data, making it 
-only helpful if one wants to establish some form of knowledge around that a specific technique can be good on a specific kind of data. For this thesis we have the need to have a more generalized unbiased approach.
+only helpful if one wants to establish some form of knowledge around that a specific technique can be good on a specific kind of data. For this thesis it was necessary to have a more generalized unbiased approach.
 
 To work around this an implementation were to be made that incorporates a selection of the studied techniques. Following the methodologies of selection for spaces and layout methods discussed earlier.
 This in order to make it possible to display the same networks (same data), using these different techniques and then be able to compare and evaluate performance on these techniques.
@@ -493,12 +487,12 @@ The main application was to be made as an WPF (Windows Presentation Foundation)\
 and Java\cite{website:Java}. For database retrieval LINQ (Language-Integrated Query)\cite{website:LINQ} has been used.
 \section{Evaluation}
 \label{sec:evaluation}
-In order to draw some relevant results from this thesis it is necessary to evaluate the different visualisation techniques chosen to be investigated. In section \ref{sec:evaluation:layoutviews} you will read 
-about different aspects that needs to be considered when evaluating the different layout methods. In section \ref{sec:evaluation:libraries} you will read about the necessity about adding tests concerning not
- only layout methods but also on the pre-requisites you have when implementing these, which programming libraries you choose to use.
+In order to draw some relevant results from this thesis it is necessary to evaluate the different visualisation techniques chosen to be investigated. Section \ref{sec:evaluation:layoutviews} will  
+explain different aspects that needs to be considered when evaluating the different layout methods. Section \ref{sec:evaluation:libraries} takes up the necessity to adding tests concerning not
+ only layout methods but also on the prerequisites for implementing these, which programming libraries to use.
 \subsection{Layout views}
 \label{sec:evaluation:layoutviews}
-The different views will be evaluated on a number of characteristics that deemed to be of great importance for a general visualisation system, based on the study done in chapter \ref{Theory}:\
+The different views will be evaluated on a number of characteristics that are of great importance for a general visualisation system, based on the study done in chapter \ref{Theory}:\
 \begin{itemize}
 	\item{Navigation}
 	\item{Situational awareness}
@@ -536,7 +530,7 @@ For the layout views, data in the form of electronical units found inside trucks
  
 This data have a complex form with a great number of relations and communications, not suiting some visualisation techniques more then others, thus making it suitable as data for this thesis purpose.
 \subsection{Data for evaluation of programming libraries}
-For the performance evaluation of programming libraries data was needed to be generated. To generate this data the program Gephi\cite{website:gephi} was used. This program was to be used to generate a number of different 
+For the performance evaluation of programming libraries data were needed to be generated. To generate this data the program Gephi\cite{website:gephi} was used. This program was to be used to generate a number of different 
 graphs of different sizes which was then saved as a plain text file. The following graphs were generated:\
 \begin{itemize}
 	\item{Graph with 50 vertices with 592 edges. Referred as G50.}
@@ -546,7 +540,7 @@ graphs of different sizes which was then saved as a plain text file. The followi
 \end{itemize}
 
 On the account that different libraries use different ways of representing data this text file can not be presumed to work as input for all libraries. On that fact parsers were needed to be developed to
-attend to that the input was on the right format for the corresponding library.
+attend that the input was on the right format for the corresponding library.
 \chapter{Results}
 \label{chap:results}
 In this chapter the reader will be introduced to the results given from the literature studies and an implementation. The results from an evaluation of excisting programming
@@ -1616,5 +1610,6 @@ A parser for both these file formats where created, following the syntax describ
 \nocite{*}\\
 \bibliographystyle{plain}
 \renewcommand{\bibname}{References}
-\bibliography{C:/Users/Viktor\string~1/Documents/GitHub/Exjobbs-rapport/Chap3/refs}
+%\bibliography{C:/Users/Viktor\string~1/Documents/GitHub/Exjobbs-rapport/Chap3/refs}
+\bibliography{D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/refs}
 \end{document}

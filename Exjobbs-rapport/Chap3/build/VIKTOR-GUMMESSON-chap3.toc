@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {2.2.1}BioFabric}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}HivePlots}{12}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}TreeMap}{13}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Three-dimensional space}{13}{section.2.3}
+\contentsline {section}{\numberline {2.3}Three-dimensional space}{14}{section.2.3}
 \contentsline {subsubsection}{Hyperbolic space}{14}{section*.1}
 \contentsline {subsection}{\numberline {2.3.1}GerbilSphere}{15}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}H3: laying out large directed graphs in 3d hyperbolic space}{16}{subsection.2.3.2}
@@ -28,6 +28,7 @@
 \contentsline {subsubsection}{Space}{18}{section*.2}
 \contentsline {subsubsection}{Layout method}{18}{section*.3}
 \contentsline {subsubsection}{Chosen views}{18}{section*.4}
+\contentsline {subsubsection}{Technical aspects}{18}{section*.5}
 \contentsline {chapter}{\chapternumberline {3}Method}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Implementation}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Programming environment}{21}{subsection.3.1.1}
@@ -43,15 +44,15 @@
 \contentsline {subsection}{\numberline {4.1.2}Results from library tests}{26}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Application}{27}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Main application}{27}{subsection.4.2.1}
-\contentsline {subsubsection}{Force-Directed(FD) based view}{28}{section*.5}
-\contentsline {subsubsection}{Labeling}{31}{section*.6}
-\contentsline {subsubsection}{Navigation - Situational awareness}{31}{section*.7}
-\contentsline {subsubsection}{Two-dimensional view - BioFabric}{32}{section*.8}
-\contentsline {subsubsection}{Labeling}{34}{section*.9}
-\contentsline {subsubsection}{Navigation - Situational awareness}{34}{section*.10}
-\contentsline {subsubsection}{Three-dimensional view - GerbilSphere}{34}{section*.11}
-\contentsline {subsubsection}{Labeling}{36}{section*.12}
-\contentsline {subsubsection}{Navigation - Situational awarness}{37}{section*.13}
+\contentsline {subsubsection}{Force-Directed(FD) based view}{28}{section*.6}
+\contentsline {subsubsection}{Labeling}{31}{section*.7}
+\contentsline {subsubsection}{Navigation - Situational awareness}{31}{section*.8}
+\contentsline {subsubsection}{Two-dimensional view - BioFabric}{32}{section*.9}
+\contentsline {subsubsection}{Labeling}{34}{section*.10}
+\contentsline {subsubsection}{Navigation - Situational awareness}{34}{section*.11}
+\contentsline {subsubsection}{Three-dimensional view - GerbilSphere}{34}{section*.12}
+\contentsline {subsubsection}{Labeling}{36}{section*.13}
+\contentsline {subsubsection}{Navigation - Situational awarness}{37}{section*.14}
 \contentsline {chapter}{\chapternumberline {5}Discussion and Conclusions}{39}{chapter.5}
 \contentsline {section}{\numberline {5.1}Which type of visualisation technique is then best suited to visualize big and complex networks?}{39}{section.5.1}
 \contentsline {chapter}{\chapternumberline {A}GraphElement}{41}{chapter.A}
@@ -59,18 +60,18 @@
 \contentsline {chapter}{\chapternumberline {C}Test data}{49}{chapter.C}
 \contentsline {chapter}{\chapternumberline {D}Library evaluation}{51}{chapter.D}
 \contentsline {subsection}{\numberline {D.0.1}Libraries of interest}{51}{subsection.D.0.1}
-\contentsline {subsubsection}{Open-source libraries}{51}{section*.14}
-\contentsline {subsubsection}{Closed-source libraries}{54}{section*.15}
-\contentsline {subsubsection}{An comparison of given libraries.}{55}{section*.16}
-\contentsline {subsubsection}{3D approaches}{55}{section*.17}
-\contentsline {subsubsection}{Differences between OpenGL and Direct3D}{56}{section*.18}
-\contentsline {subsubsection}{Non conventional graph visualization approaches}{57}{section*.19}
+\contentsline {subsubsection}{Open-source libraries}{51}{section*.15}
+\contentsline {subsubsection}{Closed-source libraries}{54}{section*.16}
+\contentsline {subsubsection}{An comparison of given libraries.}{55}{section*.17}
+\contentsline {subsubsection}{3D approaches}{55}{section*.18}
+\contentsline {subsubsection}{Differences between OpenGL and Direct3D}{56}{section*.19}
+\contentsline {subsubsection}{Non conventional graph visualization approaches}{57}{section*.20}
 \contentsline {subsection}{\numberline {D.0.2}Library selection for evaluation}{58}{subsection.D.0.2}
 \contentsline {subsection}{\numberline {D.0.3}Test set up}{58}{subsection.D.0.3}
-\contentsline {subsubsection}{Data}{58}{section*.20}
-\contentsline {subsubsection}{Hardware}{59}{section*.21}
+\contentsline {subsubsection}{Data}{58}{section*.21}
+\contentsline {subsubsection}{Hardware}{59}{section*.22}
 \contentsline {subsection}{\numberline {D.0.4}Results from library tests}{59}{subsection.D.0.4}
-\contentsline {subsubsection}{To take into consideration}{61}{section*.22}
+\contentsline {subsubsection}{To take into consideration}{61}{section*.23}
 \contentsline {chapter}{\chapternumberline {E}Implementation details.}{63}{chapter.E}
 \contentsline {section}{\numberline {E.1}Views}{63}{section.E.1}
 \contentsline {subsection}{\numberline {E.1.1}Force-directed(FD) based view}{63}{subsection.E.1.1}
@@ -80,7 +81,7 @@
 \contentsline {subsection}{\numberline {E.2.1}GraphElement}{64}{subsection.E.2.1}
 \contentsline {subsection}{\numberline {E.2.2}Data representation within application - DataManager}{64}{subsection.E.2.2}
 \contentsline {subsection}{\numberline {E.2.3}Data parsers}{65}{subsection.E.2.3}
-\contentsline {subsubsection}{VTK data parser}{65}{section*.23}
-\contentsline {subsubsection}{BioFabric data parser}{65}{section*.24}
-\contentsline {subsubsection}{GerbilSphere data parser}{65}{section*.25}
-\contentsline {chapter}{References}{67}{section*.27}
+\contentsline {subsubsection}{VTK data parser}{65}{section*.24}
+\contentsline {subsubsection}{BioFabric data parser}{65}{section*.25}
+\contentsline {subsubsection}{GerbilSphere data parser}{65}{section*.26}
+\contentsline {chapter}{References}{67}{section*.28}

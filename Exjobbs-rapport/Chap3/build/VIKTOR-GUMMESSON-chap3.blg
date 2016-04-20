@@ -1,75 +1,22 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: D:\GitHub\Exjobbsrapport-SecondVersion\Exjobbs-rapport\Chap3\\build\VIKTOR-GUMMESSON-chap3.aux
 The style file: plain.bst
-I couldn't open database file C:/Users/Viktor~1/Documents/GitHub/Exjobbs-rapport/Chap3/refs.bib
----line 340 of file D:\GitHub\Exjobbsrapport-SecondVersion\Exjobbs-rapport\Chap3\\build\VIKTOR-GUMMESSON-chap3.aux
- : \bibdata{C:/Users/Viktor~1/Documents/GitHub/Exjobbs-rapport/Chap3/refs
- :                                                                       }
-I'm skipping whatever remains of this command
-I found no database files---while reading file D:\GitHub\Exjobbsrapport-SecondVersion\Exjobbs-rapport\Chap3\\build\VIKTOR-GUMMESSON-chap3.aux
-Warning--I didn't find a database entry for "Marks91thecomputational"
-Warning--I didn't find a database entry for "195097"
-Warning--I didn't find a database entry for "1338"
-Warning--I didn't find a database entry for "tutteFD"
-Warning--I didn't find a database entry for "ead"
-Warning--I didn't find a database entry for "fr"
-Warning--I didn't find a database entry for "handh"
-Warning--I didn't find a database entry for "Schaffer:1996:NHC:230562.230577"
-Warning--I didn't find a database entry for "23102059"
-Warning--I didn't find a database entry for "website:Wikipedia"
-Warning--I didn't find a database entry for "website:Wikipedia2"
-Warning--I didn't find a database entry for "website:biofabricdoc"
-Warning--I didn't find a database entry for "Krzywinski01092012"
-Warning--I didn't find a database entry for "website:JHive"
-Warning--I didn't find a database entry for "website:R"
-Warning--I didn't find a database entry for "website:HiveR"
-Warning--I didn't find a database entry for "website:D3JS"
-Warning--I didn't find a database entry for "website:pyveplot"
-Warning--I didn't find a database entry for "website:python"
-Warning--I didn't find a database entry for "herman00"
-Warning--I didn't find a database entry for "website:WPFTreeMaps"
-Warning--I didn't find a database entry for "website:devxTreeMap"
-Warning--I didn't find a database entry for "636718"
-Warning--I didn't find a database entry for "Wolfe"
-Warning--I didn't find a database entry for "kobourov"
-Warning--I didn't find a database entry for "Shelley20121016"
-Warning--I didn't find a database entry for "Ware"
-Warning--I didn't find a database entry for "website:MSDN"
-Warning--I didn't find a database entry for "website:VisualStudio"
-Warning--I didn't find a database entry for "website:WPF"
-Warning--I didn't find a database entry for "website:C++"
-Warning--I didn't find a database entry for "website:Java"
-Warning--I didn't find a database entry for "website:LINQ"
-Warning--I didn't find a database entry for "website:gephi"
-Warning--I didn't find a database entry for "website:codeplex"
-Warning--I didn't find a database entry for "website:Dotnet"
-Warning--I didn't find a database entry for "website:quickDoc"
-Warning--I didn't find a database entry for "website:graphviz"
-Warning--I didn't find a database entry for "website:quickGGviz"
-Warning--I didn't find a database entry for "website:wikipediaDOT"
-Warning--I didn't find a database entry for "website:graphviznet"
-Warning--I didn't find a database entry for "website:graphviz4net"
-Warning--I didn't find a database entry for "website:graphx"
-Warning--I didn't find a database entry for "website:graphsharp"
-Warning--I didn't find a database entry for "website:WPFExtensions"
-Warning--I didn't find a database entry for "website:NodeXL"
-Warning--I didn't find a database entry for "website:wpftoolkit"
-Warning--I didn't find a database entry for "website:graphxPG"
-Warning--I didn't find a database entry for "website:MSAGL"
-Warning--I didn't find a database entry for "website:SugiyamaWiki"
-Warning--I didn't find a database entry for "website:yFiles"
-Warning--I didn't find a database entry for "website:WindowsForms"
-Warning--I didn't find a database entry for "website:Silverlight"
-Warning--I didn't find a database entry for "website:yFilesDotNet"
-Warning--I didn't find a database entry for "website:yFilesWPF"
-Warning--I didn't find a database entry for "website:yFilesSilverlight"
-Warning--I didn't find a database entry for "website:OpenGL"
-Warning--I didn't find a database entry for "website:Direct3D"
-Warning--I didn't find a database entry for "website:OpenCL"
-Warning--I didn't find a database entry for "website:OpenAL"
-Warning--I didn't find a database entry for "website:wisegeek"
-Warning--I didn't find a database entry for "website:vtk"
-Warning--I didn't find a database entry for "website:dictionary"
-Warning--I didn't find a database entry for "website:biosif"
-Warning--I didn't find a database entry for "website:gephipajek"
-Warning--I didn't find a database entry for "website:xgmml"
-(There were 2 error messages)
+Database file #1: D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/refs.bib
+I was expecting a `,' or a `}'---line 155 of file D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/refs.bib
+ :     
+ :     pages    = "255--262",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 164 of file D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/refs.bib
+ :     
+ :     pages    = "757--767",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 172 of file D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/refs.bib
+ :  
+ :  year      = "1945"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty institution in Marks91thecomputational
+Warning--empty year in Wolfe
+Warning--empty journal in Geom1945
+(There were 3 error messages)
