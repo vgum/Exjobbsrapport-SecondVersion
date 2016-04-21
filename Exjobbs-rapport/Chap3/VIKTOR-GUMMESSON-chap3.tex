@@ -492,7 +492,7 @@ explain different aspects that needs to be considered when evaluating the differ
  only layout methods but also on the prerequisites for implementing these, which programming libraries to use.
 \subsection{Layout views}
 \label{sec:evaluation:layoutviews}
-The different views will be evaluated on a number of characteristics that are of great importance for a general visualisation system, based on the study done in chapter \ref{Theory}:\
+Based on the study done in chapter \ref{Theory} the different views will be evaluated on the following characteristics that are of great importance for a general visualisation system:\
 \begin{itemize}
 	\item{Navigation}
 	\item{Situational awareness}
@@ -543,21 +543,19 @@ On the account that different libraries use different ways of representing data 
 attend that the input was on the right format for the corresponding library.
 \chapter{Results}
 \label{chap:results}
-In this chapter the reader will be introduced to the results given from the literature studies and an implementation. The results from an evaluation of excisting programming
- libraires are given in section \ref{sec:lib:results}. For a more ingoing review of these libraries and how they were evaluated see appendix \ref{app:library:evaluation}.
-
-Section \ref{sec:application} shows the resulting application from the implementation. Here we go through the chosen views from the literature studies to be implemented and show how they where developed. Lastly in this section,
-developed data parsers that were needed to be implemented for these views are described.
+This chapter narrate the results produced from the literature studies and the application that was implemented. The results from an evaluation of excisting programming
+libraires are given in section \ref{sec:libperform}. For a more ingoing review of these libraries and how they were evaluated see appendix \ref{app:library:evaluation}. 
+Section \ref{sec:application} shows the resulting application from the implementation and its views.  
 \section{Library performance}
 \label{sec:libperform}
 To be able to make a solid application that can be used for this thesis evaluations, not only the need (though it is most of importance) of choosing what layout methods to be used needs to be considered. Under which prerequisites
-one chooses to use while implementing said application needs to be considered. Here we bring this up by considering which libraries one can use when implementing the different visualisation methods.
+one chooses to use while implementing said application needs to be considered. Thereby a consideration of which libraries one can use when implementing the different visualisation methods is needed.
 \subsection{Attribute matrix}
 \label{Lib:attribute}
 \newline
 \\
 The following matrix, Figure \ref{fig:AttributeMatrix}, lists important functionality one looks for when considering a programming library for implementing visualisation methods. The matrix gives an overview of what the 
-different libraries supports from the start. This matrix helps as an basis when selecting libraries for the implementation.\\
+different libraries supports from the start. This matrix helps as a basis when selecting libraries for the implementation.\\
 
 \begin{figure}[!htbp]
 	\centering
@@ -587,10 +585,10 @@ Each graph have been drawn ten times and the arithmetic mean value of the time h
 \label{table:librarie-speed}
 \end{table}
 \newline
-\textbf{\textit{Smoothness - FPS}}\\
+\textbf{\textit{Smoothness - FPS(Frames per second)}}\\
 \newline
-There are three fps measurements for each library were panning actions was being performed for each one. One zoomed out far away, giving an overview of the
-graph (Z1), one zoomed in half way to the centre of the graph (Z2) and a third were you are zoomed far in to the graph, being able to distinguish between vertices (Z3).
+There are three fps measurements for each library were panning actions was being performed. One zoomed out far away, giving an overview of the
+graph (Z1), one zoomed in half way to the centre of the graph (Z2) and a third were the user are zoomed far in to the graph, being able to distinguish between vertices (Z3).
 \newpage
 \begin{table}[h]
 \centering
@@ -636,20 +634,20 @@ graph (Z1), one zoomed in half way to the centre of the graph (Z2) and a third w
 
 \section{Application}
 \label{sec:application}
-In this section we will show the resulting application implemented with the corresponding views chosen from the research done in chapter \ref{Theory}.
- \subsection{Main application}
+This section shows the resulting application implemented with the corresponding views chosen from the research done in chapter \ref{Theory}.
+\subsection{Main application}
 At the start up of this application the user will be taken to the main application where the user will be prompted to make some choices before being able to visualize data. 
 These choices are concerning which data to be used. 
 
-In this application the user are constrained to choosing between visualising ECUs or AEs, see section \ref{data:layout-views}. The user is also prompted to chose which SOP date to use. Next the user 
-will need to load the data from the database by pressing a button, labeled "Load Data". After that is done the user can then go on and choose which view to display. The user is not restrained to one view at the 
+In this application the user are constrained to choose between visualising ECUs or AEs, see section \ref{data:layout-views}. The user is also prompted to choose which SOP date to use. Next the user 
+need to load the data from the database by pressing a button, labeled "Load Data". After that is done the user can then go on and choose which view to display. The user is not restrained to one view at the 
 time but can bring up multiple views at the same time, making it easy to compare views.
-\subsubsection{Force-Directed(FD) based view}
+\subsection{Force-Directed(FD) based view}
 \label{FD-based-view}
 Force-directed algorithms is, as shown in chapter \ref{Theory}, an important part when it comes to viualiseing networks. There are many visualisation techniques based solely on force-directed algorithms.
-While other visualisation techniques that uses different approaches often incorporate some kind of force-directed algorithm to there visualisation method. As for example by computing a base graph using a
- force-directed algorithm. Therefore the first view of the implementation is a view that uses a force-directed algorithm for the vertices layout and edge routing. Figure \ref{fig:AllaAE2} through Figure \ref{fig:AllaAesTwoDUnLabeled}
- shows examples of the application using this view.
+While other visualisation techniques that uses different approaches often incorporate some kind of force-directed algorithm to their visualisation method. As for example by computing a base graph using a
+ force-directed algorithm. Therefore the first view of the implementation is a view that uses a force-directed algorithm for the vertices layout and edge routing. Figures \ref{fig:AllaAE2} to \ref{fig:AllaAesTwoDUnLabeled}
+ show examples of the application using this view.
 
 \begin{figure}[!htbp]
 	\centering
@@ -662,7 +660,7 @@ While other visualisation techniques that uses different approaches often incorp
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[scale=0.3]{SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE4}
-	\caption{Same network as in \ref{fig:AllaAE2} after zooming actions where preformed.}
+	\caption{Same network as in \ref{fig:AllaAE2} after zooming actions were preformed.}
 	\label{fig:AllaAE4}
 \end{figure}
 
@@ -696,7 +694,7 @@ While other visualisation techniques that uses different approaches often incorp
 \end{figure}
 
 \subsubsection{Labeling}
-As mentioned in section \ref{FD:View:appendix}, the VTK library displays labels according to their weights, the higher the weight the higher priority a givven vertice label will have. This combined with that force-directed algorithm by nature is good at evenly spreading out vertices, label 
+As mentioned in section \ref{FD:View:appendix}, the VTK library displays labels according to their weights, the higher the weight the higher priority a given vertice label will have. This combined with the force-directed algorithm by nature is good at evenly spreading out vertices, label 
 obscuration becomes lesser of a problem. An example of this is shown in figure \ref{fig:AllaECU3TwoD} where a fairly large network is being displayed. 
 
 Of course this comes at a price. By allowing a prioritizing of which labels to display one is left with a
@@ -704,23 +702,23 @@ loss of information, in this case a loss of labels. This can have a large effect
 this application. Depending on what tasks one wants to solve by using this visualization technique, important
 data may be missed and/or be more difficult to locate. It comes down to what data one is attempting to extract
 from the view. If for instance one is out to identify the vertices with a large number of connections and greater subnets
-this view might work terrific. On the other hand if one is to find a specific data part that may be smaller weighted this view can make it difficult and uneasy to use.
+this view might work terrific. On the other hand if one is to find a specific data part that may be smaller weighted this view can be difficult and uneasy to use.
 \subsubsection{Navigation - Situational awareness}
 The effect on the situational awareness of a user in this view depends highly on what stage in a task the user is on and what type of task said user is performing. Because the view
 provides a highly zoomable network a user can with a far out zoomed view, combined with the labeling enabled, acquire a good overlook of a given network.
 
 Though when zooming in using this view there comes a point when some data are lost, there
-is only so much data that can fit on a screen at the same time. This can diminish the situational awareness for a user. Resulting in
-a loss of orientation, forcing a user to zoom out to try and see correlations from one part of the network to another. And they might even have a loss in orientation trying to get back to the same spot as before a given 
+is only so much data that can fit on a screen at the same time. This can diminish the situational awareness for a user and result in
+a loss of orientation, forcing a user to zoom out to try and see correlations from one part of the network to another. The user might even have a loss in orientation trying to get back to the same spot as before a given 
 zooming action was made. One can draw the conclusion that this view provides a poor solution for problems having a need for global context and local details at the same time. Resulting in a user loosing orientation or 
 specific information at different stages performing tasks.
 
 In this view one have the option to navigate through the x- and y-axis or x-, y- and z-axis. This can be helpful when looking closer on how a subpart of a network joints with another. But one needs to be careful 
-when going from two axises to three, when it can result in easier loss of orientation.
+when going from two axises to three, due to the fact that it can result in a loss of orientation.
 
-\subsubsection{Two-dimensional view - BioFabric}
-For a view in the two dimensional space BioFabric was chosen to be used. BioFabric provides a non conventional approach to visualize data and have worthy attributes to be evaluated for visualization. 
-Such as the layout algorithm for vertices and edges, the labelling of vertices and how one navigate the network. Figure \ref{fig:AllaECU1BIO} through Figure \ref{fig:AllaECU3BIO} shows examples when using the Biofabric view.
+\subsection{Two-dimensional view - BioFabric}
+For a view in the two dimensional space BioFabric was used. BioFabric provides a non conventional approach to visualize data and have worthy attributes to be evaluated for visualization. 
+Such as the layout algorithm for vertices and edges, the labelling of vertices and how one navigate the network. Figures \ref{fig:AllaECU1BIO} to \ref{fig:AllaECU3BIO} show examples when using the Biofabric view.
  
 \begin{figure}[!htbp]
 	\centering
@@ -745,36 +743,35 @@ Such as the layout algorithm for vertices and edges, the labelling of vertices a
 \end{figure}
  
  \subsubsection{Labeling}
-BioFabric also uses a weighted labels solution. Here the vertices with highest degree, as in BioFabric becomes the horizontal lines at the top of the view, will be of the greatest size.  
+BioFabric also uses a weighted label solution. Here the vertices with highest degree, as in BioFabric becomes the horizontal lines at the top of the view, will be of the greatest size.  
 In figure \ref{fig:AllaECU1BIO} one can see this clearly. The reason behind weighting labels becomes fairly obvious when one
 starts to think about how it would turn out if BioFabric would try to show all their labels of all vertices at the same 
 size. There would be so many labels occluding each other that one would not be able to distinguish which label
-belongs to whitch vertice. Furthermore most part of the graph would have labels occluding each other making it
+belongs to which vertice. Furthermore most part of the graph would have labels occluding each other, making it
 difficult to see what label says what.
 \subsubsection{Navigation - Situational awareness}
-BioFabric have taken the approach to have more active views in their application at the same time. One main 
-view, a view that works as an overview of the network, showing ones selection, and one that they call the network magnifier. The network 
+BioFabric's approach is to have more active views in their application at the same time, they have three different views. One main 
+view of the network, a second view that gives an overview of the network and show selections made and a third view called the network magnifier. The network 
 magnifier displays a sub selection of the network made by the user (a selection) where the user can see all the labels and
 connections of vertices in their selection. Figure \ref{fig:AllaECU3BIO} shows all three views where an selection has been made. 
 
 Having these different views, especially the relation between the overview and  network magnifier, tries to 
-help toward good situational awareness. The user can go in more depth of a subpart of a network using the network magnifier while trying to maintain the global 
-context by looking at the network overview and main view. 
+help toward good situational awareness. The user can get a more detailed view of a subpart of a network using the network magnifier while trying to maintain a global 
+context by simultaneously looking at the network overview and main view. 
 
 Having this setup one can argue that their approach goes toward data on demand. Requiring the user 
-to have good knowledge about the network being displayed and have a good idea of the where and how the
-information searched is localized. Putting the pressure on the user to beforehand have a good situational 
-awareness orientation, which is not always the case.
+to have good knowledge about the network being displayed but also to have a good idea of the where and how the
+information searched is localized. Putting the pressure on the user to have a good situational 
+awareness orientation beforehand, which is not always the case.
  
-\subsubsection{Three-dimensional view - GerbilSphere}
-The direction many new visualisation techniques are going in are attempting to take advantage of the extra space in the three-dimensional space. And thus it is of significance for this thesis to incorporate a 
-tree-dimensional visualisation technique. 
+\subsection{Three-dimensional view - GerbilSphere}
+The direction many new visualisation techniques are taking is attempting to take advantage of the extra space in the three-dimensional space. And thus it is of significance for this thesis to incorporate a 
+tree-dimensional visualisation technique. Many of these tree-dimensional techniques uses a sphere shape to visualize networks in/on. And it is common that they use some sort of force-directed algorithm
+to layout the vertices and edges in this spherical space.
 
-Many of these tree-dimensional techniques uses a sphere shape to visualize networks in/on. And common is that they use some sort of force-directed algorithm to layout the vertices and edges in this spherical space.
-
-For this application tree-dimensional view a layout method that uses the spherical space was used. The view is based on GerbilSphere \cite{Shelley20121016} where the vertices of a network are laid out on the surface of a 
-sphere and one navigates from a point of view inside the sphere (though one can zoom out to see the sphere from the outside). For more details about GerbilSpheer see chapter \ref{Theory} section \ref{Gerbil:chap2}. 
-Figure \ref{fig:AllaAE1SPW} and \ref{fig:AllaAE2SPW} shows the view in use zoomed outside the sphere while Figure \ref{fig:AllaAE3SPW} shows the view from inside the sphere.
+For this application a tree-dimensional view with a layout method that uses the spherical space was used. The view is based on GerbilSphere \cite{Shelley20121016} where the vertices of a network are laid out
+ on the surface of a sphere and one navigates from a point of view inside the sphere (though one can zoom out to see the sphere from the outside). For more details about GerbilSpheer see chapter \ref{Theory}
+ section \ref{Gerbil:chap2}. Figure \ref{fig:AllaAE1SPW} and \ref{fig:AllaAE2SPW} show the view in use zoomed outside the sphere while Figure \ref{fig:AllaAE3SPW} shows the view from inside the sphere.
 
 \begin{figure}[!htbp]
 	\centering
@@ -798,13 +795,12 @@ Figure \ref{fig:AllaAE1SPW} and \ref{fig:AllaAE2SPW} shows the view in use zoome
 \end{figure}
 \newpage
 \subsubsection{Labeling}
-The greatest advantage to this approach is the extra space one gains by using the hyperbolic space. So one
- might be enticed to draw the conclusion that this is good, now we have more space for both labels and 
- vertices and we should be able to lay out our data points in a satisfactory way. While the fact about more space might be true one will soon see that obscuration of data becomes a much more severe problem fast.
- Now labels and vertices can be obscuring each other in a wider range, laying in front or behind each other etc.
+The greatest advantage to this approach is the extra space one gains by using the hyperbolic space. So one might be enticed to draw the conclusion that this is all beneficial thinking,
+haveing more space for both labels and vertices lets the application lay out all data points in a satisfactory way. While the fact about more space might be true one will soon see that
+obscuration of data becomes a much more severe problem compared to two-dimensional soutions. Now labels and vertices can be obscuring each other in a wider range, laying in front or behind each other.
  
-Presumably GerbilSphereAlpha have in an attempt to work around obscurance taken an information on demand approach. Choosing not to display labels on the
-sphere and instead have a separate window that displays information about a vertice when that specific vertice is chosen by the user.
+Presumably GerbilSphereAlpha have attempted to work around obscurance taken a information on demand approach. Choosing not to display labels on the
+sphere and instead having a separate window that displays information about a vertice when that specific vertice is chosen by the user.
 This results in a lower risk of obscuration of labels but at the same time demands more from the user. More in the
 sense that the user needs to have a greater knowledge about the network and its structure before hand to be able
 to navigate and retrieve desirable data from the visualized network. It also causes a delay in identifying 
@@ -812,37 +808,35 @@ vertices when a user needs to click a specific vertice to get information about 
 if the user forgets which vertice the user clicked to get information about in previous steps.
 \subsubsection{Navigation - Situational awarness}
 It has already been indicated that drawing networks in the hyperbolic space offers more space compared to the
-2D-space, which is an positive thing. Though this comes with a price, which has to be paid by the end user with a
- worsened sense of situational awareness. This because of the fact that with more space
-and axis to navigate through results in a harder time to keep ones orientation. For example a user might take a too large of 
-a step in the sphere, loosing track of where the user came from which might result in forcing the user to go further back
+two-dimensional space, which is a positive thing. Though this comes with a price, which has to be paid by the end user with a
+worsened sense of situational awareness. Due to the the fact that with more space and axis to navigate through it becomes more difficult to keep orientation.
+For example a user might take too large of a step in the sphere, loosing track of where the user came from which might result in forcing the user to go further back
 or even start over in the task currently being performed.
 
-This becomes a problematic downside when going from a two-dimensional - to a three-dimensional space view, and needs to be considered and handled. 
+This becomes a problematic downside when going from a two-dimensional - to a three-dimensional space view, and it needs to be considered and handled. 
 GerbilSphereAlpha tries to solve this by using a developed navigation feature that is displayed at the
-bottom of the sphere. See \cite{Shelley20121016} for further details. 
+bottom of the sphere. See \cite{Shelley20121016} for further details. This navigation feature becomes a good first step in 
+trying to help the situational awareness of a user, though it is not too intuitive to use at first and it takes some practice to become familiar with.
 
-This navigation feature becomes a good first step in trying to help the situational awareness of a user. Though it is not too intuitive to use at
-first and take some practice to become familiar with. This and the fact that if one goes over to the 
-hyperbolic space they do this because of a need for more space, larger networks to display, results here in large number of
-small vertices being displayed. Trying to use this to be able to find specific vertices can become unfeasible. Worth 
-mentioning also is that while the hyperbolic space provide more space and is good for larger networks it can 
-have an negative effect if used on smaller networks. Resulting in a small number of vertices on a greater surface, making long distances between vertices and making it hard to identify
- edges etc.
+Going over to the hyperbolic space with a need for more space, having larger networks to display, can reult in a large number of small vertices being displayed.
+Which when seeking individual vertices can become infeasable.
+Also worth mentioning is that while the hyperbolic space provide more space which is good for larger networks it can 
+have an negative effect if it is used on smaller networks. Resulting in a small number of vertices on a greater surface that could produce unnessesary long edges and also vertices
+may become further apart then necessary.
 
-In the next chapter we will discuss and try to draw conclusions from the results given in this chapter.
+The following chapter will try to draw conclusions from the material presented in this chapter.
 \chapter{Discussion and Conclusions}
 \label{chapter:five}
-In this chapter we will try to give an account of plausible conclusions from the studies and results in previous chapters. We will try to go through and answer the question this thesis 
-revolves around, \emph{Which type of visualisation technique is best suited to visualize big and complex networks?}\\
+In this chapter plausible conclusions from the studies and results in previous chapter will be discussed to answer this thesis question.
+\emph{Which type of visualisation technique is best suited to visualize big and complex networks?}\\
 
 \section{Which type of visualisation technique is then best suited to visualize big and complex networks?}
 \label{sec:conclution}
-One thing that becomes fairly clear when one reads the research from this thesis is that answering this question
-is not an easy task. Though this thesis is nowhere near to go through all visualisation techniques
-that exists, the evidence from this thesis points toward that there is no one correct solution answering this
-question. It points more to that there are no one best choice of technique to display a complex network that is
-independent of the kind of and form of data one uses.
+One thing that becomes fairly clear when reading the research from this thesis is that answering this question
+is not an easy task. Due to the fact that this thesis does not go through all existing visualisation techniques,
+the evidence from this thesis point towards the conclusion that there is no correct solution answering this
+question. It points more towards that there are no best choice of technique to display a complex network that is
+independent from the kind of and form of data being used.
 
 It boils down to that when one wants to visualize a complex network one must consider all the features and demands
 that the given network needs. Do we need more space for the data? A clean and clear structural way of traversing the network?
@@ -857,10 +851,10 @@ become very familiar with the data that is going to be displayed along with gett
  trims the network to specific data, search functions, highlights etc. It all boils down too the needs of the 
  specific application.
  
- For further research one could be interested in see how these different visualisation approaches would 
- cooperate. To see how one users situational awareness is affected by navigating through one view and seeing
+ For further research one could be interested in seeing how these different visualisation approaches would 
+ cooperate. To see how one use situational awareness is affected by navigating through one view and seeing
  at the same time that change in the different views. How it would affect if one take a sub-selection of 
- a network in one view and see that same sub-selection marked in the other views simultaneously.
+ a network in one view and see the same sub-selection marked in the other views simultaneously.
 
 \begin{appendices}
 \chapter{GraphElement}
