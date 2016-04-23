@@ -508,7 +508,7 @@ The evaluation will be executed by using the implemented application to try and 
 	\item{Identify the node with highest degree}
 \end{itemize}
 \
-The tasks will be viewed as completed correctly, incorrectly or uncompleted. In addition to this, time will be taken in to consideration as a measurement of performance. The results and drawn conclusions from these evaluations
+The tasks will be viewed as completed correctly, incorrectly or uncompleted. In addition to this, time will be taken into consideration as a measurement of performance. The results and drawn conclusions from these evaluations
 can be found in chapter \ref{chapter:five}.
 \subsection{Programming libraries}
 \label{sec:evaluation:libraries}
@@ -1119,7 +1119,7 @@ G1000: & 1000 vertices, 399969 edges.\attachfile{1000_nodes.txt}\\
 \chapter{Library evaluation}
 \label{app:library:evaluation}
 \subsection{Libraries of interest}
-For the considered libraries of use for the implementation, we classify them to one of four different categories. Open-source libraries, closed-source libraries, 3D-approaches and non-conventional graph visualisation approaches.
+For the considered libraries of use for the implementation four different categories is used to classify them. Open-source libraries, closed-source libraries, 3D-approaches and non-conventional graph visualisation approaches.
 \subsubsection{Open-source libraries}
 \textbf{\textit{\underline{QuickGraph}}}\\
 \newline
@@ -1149,12 +1149,12 @@ QuickGraph\cite{website:codeplex} is a library containing generic graph data str
 \textbf{\textit{Notes:}}\
 \newline
 \\
-QuickGraph does not support an option to use an own solution for visualisation of graphs but points to the layout library Graphviz\cite{website:graphviz} that they claim works well with their data 
+QuickGraph does not support an option to use an own solution for visualisation of graphs but points to the layout library Graphviz\cite{website:graphviz} that QuickGraph claims work well with their data 
 structures\cite{website:quickGGviz}. This applies to layout algorithms as well.\\
 \newline
 \textbf{\textit{\underline{Graphviz}}}\\
 \newline
-Graphviz\cite{website:graphviz} - graph visualization software.  Graphviz provides different layout algorithms and take descriptions of graphs in an text language as input. Normal usage with Graphviz is by using DOT (graph description language)\cite{website:wikipediaDOT}. 
+Graphviz\cite{website:graphviz} - graph visualization software.  Graphviz provides different layout algorithms and take descriptions of graphs in a text language as input. Normal usage with Graphviz is by using DOT (graph description language)\cite{website:wikipediaDOT}. 
 
 It can be used with QuickGraph as a C\# wrapper. Other wrappers for C\# and .Net one could use are graphviznet\cite{website:graphviznet} and graphviz4net\cite{website:graphviz4net}.
 \newline
@@ -1185,7 +1185,7 @@ Extended WPF Toolkit\cite{website:wpftoolkit}, which are open-source projects.
 
 It is based on WPF for rendering graphs and can be seen as the successor too Graph\#. GraphX is the new Apache Sparks API for graphs and 
 graph-parallel computation. It introduces a new API that operates on both tables and graphs and incorporate this API as a library using graph parallel techniques 
-to be as fast as specialize systems (such as GraphLab, Giraph and Pregel). By embedding this graph-parallel model in Spark it enables GraphX to integrate easily with RDDS
+to be as fast as specialized systems (such as GraphLab, Giraph and Pregel). By embedding this graph-parallel model in Spark it enables GraphX to integrate easily with RDDS
 (Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing) and perform data parallel operation while also enabling the speed of specialize graph systems\cite{website:graphxPG}.\\
 \\
 \textbf{\textit{Supports:\cite{website:graphx}}}\
@@ -1222,12 +1222,12 @@ to be as fast as specialize systems (such as GraphLab, Giraph and Pregel). By em
 \textbf{\textit{Notes:}}\
 \newline
 \\
-There is no documentation implemented functions for nested graphs or how one go about doing this. And by nested graph we mean a graph which vertices can contain subgraphs within themselves.\\
+There is no documentation of implemented functions for nested graphs. A nested graph is a graph were vertices can contain subgraphs within themselves.\\
 \newline
 \textbf{\textit{\underline{MSAGL}}}\\
 \newline
 MSAGL\cite{website:MSAGL}, Microsoft Automatic Graph Layout, is a .Net tool for graph layout and viewing. It is built on the Sugiyama scheme\cite{website:SugiyamaWiki} that produce hierarchical layouts. Where the 
-vertices are drawn in horizontal layers and the edges often drawn in a downward fashion between vertices. MSAGL contains its own layout engine.
+vertices are drawn in horizontal layers and the edges are often drawn in a downward fashion between vertices. MSAGL contains its own layout engine.
 \newline
 \\
 \textbf{\textit{Supports:\cite{website:MSAGL}}}\
@@ -1257,7 +1257,7 @@ vertices are drawn in horizontal layers and the edges often drawn in a downward 
 \newline
 \textbf{\textit{\underline{yFiles(yWorks)}}}\\
 \newline
-yFiles\cite{website:yFiles} provides data structures and algorithms for graph handling. Including automatically layouts for graphs and visualization
+yFiles\cite{website:yFiles} provides data structures and algorithms for graph operations. Including automatically layouts for graphs and visualization
  controls for those graphs. yFiles are supported for different platforms, including .Net where one can either use a library for Windows Forms\cite{website:WindowsForms}, WPF\cite{website:WPF} or Silverlight\cite{website:Silverlight}. \\
 \\
 \textbf{\textit{Supports:\cite{website:yFilesDotNet}\cite{website:yFilesWPF}\cite{website:yFilesSilverlight}}\
@@ -1300,7 +1300,7 @@ yFiles also supports incremental layout, meaning that when a graph needs to be u
 \newline
 \\
 The following matrix, Figure \ref{fig:libAttributeMatrix:appendix}, lists important functionality one looks for when considering a programming library for implementing visualisation methods. The matrix gives an overview of what the 
-different libraries supports from the start. This matrix helps as an basis when selecting libraries for the implementation.\\
+different libraries supports from the start. This matrix helps as a basis when selecting libraries for the implementation.\\
 
 \begin{figure}[!htbp]
 	\centering
@@ -1310,7 +1310,6 @@ different libraries supports from the start. This matrix helps as an basis when 
 \end{figure}
 \\
 \subsubsection{3D approaches}\\
-So far we have only looked at libraries that utilize the two-dimensional space, next we are going to look at some for the three-dimensional space.
 \\
 \newline
 \textbf{\textit{\underline{Libraries}}}\\
@@ -1326,30 +1325,30 @@ OpenGL is being developed largely by a consortium of different parties and follo
 and maintained by Microsoft and is completely proprietary in its implementation. Resulting in a big platform difference, where OpenGL is supported on a wide range of platforms and languages,
 while Direct3D is bound to Microsoft Windows systems. 
 
-At last there is the different methods used to introduce new hardware and features. OpenGL do this by allowing hardware manufactures 
+At last there are different methods used to introduce new hardware and features. OpenGL do this by allowing hardware manufactures 
 to be able to implement special functions, called extensions that give immediate access to features of new hardware. As for Direct3D,  Microsoft needs to process theses features and then release 
 access to these in forms of new functions. Here OpenGL allows new features to be accessible quicker then Direct3D, though reduces the overall compatibility of a program using the extensions. 
 And the other way around, Direct3D takes longer to give access to the new features but compatibility across different systems is being maintained.
 
 The aspect of hardware managing differs in these two libraries.
-OpenGL hides the hardware and works so that the implementation handles hardware resources, users of OpenGL uses functions for drawing which relies on drivers to directly access the hardware. Direct3D on
-the other hand lets the application handle the hardware resources. The trade off become that with OpenGL it becomes easier to write applications but unable to see the status of hardware resources and
-thus must hope that the implementation uses the resources in a way that suits your application. While with Direct3D the writing of the application may be more complex but have the possibility to use 
+OpenGL hides the hardware and works so that the implementation handles hardware resources, users of OpenGL use functions for drawing which relies on drivers to directly access the hardware. Direct3D on
+the other hand lets the application handle the hardware resources. With OpenGL it becomes easier to write applications but hard to see the status of hardware resources and
+thus must hope that the implementation uses the resources in a way that suits the related application. While with Direct3D the writing of the application may be more complex but have the possibility to use 
 hardware resources in the most efficient way for the application.\cite{website:wisegeek}
 
 Both these differs a bit form previous discussed libraries in the sense that there are no (known) support for graph visualization. 
-So for instance no layout algorithms for graphs like force directed or data structures to represent a graph. This implies that all that has to be implemented from scratch, taking more time but open
-ups for less restrictions on what one can do.\\
+So for instance no layout algorithms for graphs like force directed or data structures to represent a graph. This implies that all has to be implemented from scratch, taking more time but open
+up for less restrictions on what one can do.\\
 \newline
 \textbf{\textit{\underline{VTK}}}\\
 \newline
 VTK (Visualization Toolkit)\cite{website:vtk} is an open-source software system for 3D computer graphics, image processing and visualization. At its core VTK is implemented as a C++ toolkit and it supports parallel
  processing which help in performance. VTK is a popular library when it comes to visualize scientific data, which is often big and complex. 
  
-There are a number of wrapper languages making it possible to addition to C++ use VTK through for instance  Python, Java and .NET.\\
+There are a number of wrapper languages making it possible in addition to C++ use VTK through for instance  Python, Java and .NET.\\
 \subsubsection{Non conventional graph visualization approaches}\\
-When it comes to the visualisation techniques like BioFabric, Hive Plots and Treemap (as described in chapter \ref{Theory}) there are few libraries that support this compared to the amount of libraries there are
- to visualize the classical node/edge graphs. Here we go through these approaches and give an account to which ways one can take to use these.\\
+When it comes to the visualisation techniques like BioFabric, Hive Plots and Treemap (described in chapter \ref{Theory}) there are few libraries that support this compared to the amount of libraries there are
+ to visualize the classical node/edge graphs. How these approaches can be used are shown below.\\
 \newline
 \textbf{\textit{\underline{BioFabric:}}}\\
 \newline
@@ -1364,7 +1363,7 @@ The framework D3.JS\cite{website:D3JS} is an other option that is a JavaScript t
 \textbf{\textit{\underline{Tree Map:}}}\\
 \newline
 As for Treemaps there are some choices as well. For .Net, which is this thesis working environment, there is the WPF Treemaps \& SquarifiedTreeMaps control library\cite{website:WPFTreeMaps}, though it has poor documentation.
- Another alternative is the .NET Treemap Control library\cite{website:devxTreeMap}. Here again the problem lies in little documentation and hard to get information about the library where this was part of an old Microsoft
+ Another alternative is the .NET Treemap Control library\cite{website:devxTreeMap}. Again the problem lies in little documentation and it is hard to get information about the library when this was part of an old Microsoft
  research project called Netscan.\\
 \newline
 \textbf{\textit{\underline{GerbilSphere:}}}\\
@@ -1403,7 +1402,7 @@ While GerbilSphere does not support nested graphs this becomes of less interest 
 From the matrix in figure \ref{fig:libAttributeMatrix:appendix} one conclude that GraphX and yFiles are two possible candidates for usable libraries. They both support more functionality than QuickGraph, MSGAL and 
 GraphViz. Therefore they will be included in the evaluation.
 
-Needed is also an option for implementing three dimensional views. For this purpose we include the VTK library when it has support for graph visualisation.
+Needed is also an option for implementing three dimensional views. For this purpose the VTK library is included when it has support for graph visualization.
 \subsection{Test set up}
 \label{sec:test:set-up}
 The libraries have been tested on two different aspects, rendering speed and smoothness. Rendering speed is measured as the time it takes a specific library to draw up a given graph. As for
@@ -1420,7 +1419,7 @@ The data used for these tests has been produced with the use of Gephi\cite{websi
 \newline
 Given graphs can be found in appendix \ref{testdata}.
 \subsubsection{Hardware}
-The evaluations where runned on the same computer for each graph and library with the foloowing hardware:\\
+The evaluations where runned on the same computer for each graph and library with the following hardware:\\
 \newline
 \begin{tabular}{ l l }
 	Processor: & \textcolor{blue}{Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz}\\
@@ -1429,8 +1428,8 @@ The evaluations where runned on the same computer for each graph and library wit
 	Operating System: & \textcolor{blue}{Microsoft Windows 7 Enterprise Edition Service Pack 1 (build 7601), 64-bit}\\
 \end{tabular}	
 \subsection{Results from library tests}
-Two kinds of users need to be considered when talking about the results from the library evaluations. First take the users that will indirect use the libraries by using the application 
-built using these libraries. We will call these users for end users. Second is the kind of user that will use these libraries to build an application for visualisation. We call these users for developer users.
+Two kinds of users need to be considered when talking about the results from the library evaluations. The users that will indirect use the libraries by using an application 
+built on these, we will call these users for end users. Second is the kind of user that will use these libraries to build an application for visualisation, we call these users for developer users.
 
 The needs one have on the libraries differs depending on what kind of user one are. For an end user the speed and smoothness are the two things that shows most. Developer users must also take into consideration
 what the different libraries supports and not.\\
@@ -1455,15 +1454,17 @@ Each graph have been drawn ten times and the arithmetic mean value of the time h
 \newline
 Here one can see that the VTK library is far superior to the other libraries, especially on the larger sized graphs. 
 On the smallest graphs the difference are not as significant. For the end users the difference on drawing speed on graphs of size with 50 nodes would not be to notable.
-Though the developer users might wanna take this into consideration. 
+Though the developer users might want to take this into consideration. 
 On larger than 50 nodes graphs the difference between these libraries shows fairly clear. GraphX drawing speed decreases rapidly and are not able to draw graphs with a size of 1000 vertices with the hardware used.
 yFiles do manage to draw this graph, though it took over 12 minutes compared to VTKs 3 seconds.\\
 
 \newline
-\textbf{\textit{Smoothness - FPS}}\\
+\textbf{\textit{Smoothness - FPS(Frames per second)}}\\
 \newline
-There are three fps measurements for each library were panning actions was being performed for each one. One zoomed out far away, giving an overview of the
-graph (Z1), one zoomed in half way to the centre of the graph (Z2) and a third were you are zoomed far in to the graph, being able to distinguish between vertices (Z3).\\
+There are three fps measurements for each library were panning actions was being
+performed. One zoomed out far away, giving an overview of the graph (Z1), one
+zoomed in half way to the centre of the graph (Z2) and a third were the user are
+zoomed far in to the graph, being able to distinguish between vertices (Z3).\\
 \newline
 \begin{table}[h]
 \centering
@@ -1507,18 +1508,18 @@ graph (Z1), one zoomed in half way to the centre of the graph (Z2) and a third w
 \label{table-yFiles:appendix}
 \end{table}
 \newpage
-From theese tables one can see that GraphX and yFiles perform close to equal, though VTK outperforms both these libraries with quite a big margin. VTK is also the only one that could detect a readable 
-FPS value when maneuvering the largest sized graph. Both GraphX and yFiles displays a better smoothness (higher FPS) at a deeper zoom, which can at first seem a bit strange. 
+From these tables one can see that GraphX and yFiles perform almost equally, though VTK outperforms both these libraries with quite a larger margin. VTK is also the only one that could detect a readable 
+FPS value when maneuvering the largest sized graph. Both GraphX and yFiles displays a better smoothness (higher FPS) at a deeper zoom, which at first can seem a bit strange. 
 The reason for this is that once you are zoomed far enough in the graph, you come to a point where there is less nodes and edges to display on the screen then previous zoom
 where the low FPS value starts to increase after this point. 
 
 \subsubsection{To take into consideration}
-One thing that becomes overlooked when talking about these different libraries is how one wants to draw graphs. For instance if one wants small or big representation of nodes. If one is planing on just drawing 
-smaller graphs with big nodes one might be fine using yFiles or GraphX. Though if one wants to draw graphs of the larger kind one might be better suited with the VTK library. These aspects of course affect 
+One thing that becomes overlooked when talking about these different libraries is how one wants to draw graphs. For instance if one wants a small or large representation of nodes. If one is planing on just drawing 
+smaller graphs with larger nodes one might be fine using yFiles or GraphX. Though if one wants to draw graphs of the larger kind one might be better suited with the VTK library. These aspects will of course affect 
 the speed and smoothness when using these libraries. In this study the basic common configuration for each library has been used.
 
-For the end user the speed and smoothness is what becomes most important, that is what they see when using an application. The developer user must of course take this in to account when developing an application.
- More than that the developer user must also take in to consideration what different features different libraries supports.
+For the end user the speed and smoothness is what becomes of most importance, because that is what they see when using an application. The developer user must of course take this into account when developing an application.
+The developer user must also take into consideration what features that the different libraries support.
  
 \chapter{Implementation details.}
 \label{appendix:implementation:details}
