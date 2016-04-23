@@ -1527,40 +1527,40 @@ The developer user must also take into consideration what features that the diff
 \section{Views}
 \subsection{Force-directed(FD) based view}
 \label{FD:View:appendix}
-This view was implemented using the VTK library for C\# on the basis 
+This view was implemented when using the VTK library for C\# on the basis 
 from the evaluation done in section \ref{sec:libperform}.
 
-In this view the user of the application can choose between showing labels and not. The labelling of the vertices in this view are weighted with a weight based on their degree. This in such a way that the higher
+In this view the user of the application can choose between showing labels or not. The labelling of the vertices in this view are weighted with a weight based on their degree. This in such a way that the higher
  the degree of a vertice, the higher weight that vertices label will be given. Based on the vertices weights, a priority of which labels to be displayed at a certain point in the network are made. Giving vertices
- with higher degree higher priority. This also results in that depending on which zoom level in a network one are, different labels will be prioritised.
+ with higher degree a higher priority. This also results in that depending on which zoom level in a network one are, different labels will be prioritised.
 
- When it comes to the space this view is using, it is actually up to the user to chose. By holding down shift when navigating an network in this view the z-axle becomes fixed, making it appear as a two dimensional view. 
+ When it comes to the space this view is using, it is actually up to the user to choose. By holding down shift when navigating a network in this view the z-axle becomes fixed, making it appear as a two dimensional view. 
 Otherwise it works in the three dimensional space, where one can navigate through the x-, y- and z-axles. This is unique to this view, the next two views works in the two- or three-dimensional space. 
 
 \subsection{Two-dimensional view - BioFabric}
-BioFabric is an open-source Java application which makes it applicable to use for this thesis. Though some changes was needed to be done for it to work with our implementation. Changes concerning the code that conducts the where
-and how the input of data for the application were made, changes so that BioFabric becomes compatible with our application. Also additions concerning making sure that the data converts to the correct form for BioFabric to handle
- after data had been input where needed. More about this in \ref{Data:Parsers}.
+BioFabric is an open-source Java application which makes it applicable to use for this thesis. Though some changes was needed to be done for it to work with the implementation. Changes concerning the code that conducts to where
+and how the input of data for the application were made, changes so that BioFabric becomes compatible with the application. Also additions concerning that the input data converts to the correct form for BioFabric where needed.
+ More about this in \ref{Data:Parsers}.
 
 \subsection{Three-dimensional view - GerbilSphere}
-GerbilSphere is an open source application developed in C++. Again the data handling needs to be modified to match the form of data input GerbilSphere uses,
-again more about this in \ref{Data:Parsers}.
+GerbilSphere is an open source application developed in C++. Again the data handled needs to be modified to match the form of data input GerbilSphere uses
+and more about this in \ref{Data:Parsers}.
 
 GerbilSphere handles labels a bit differently than previous views. Instead of trying to place visible labels in the spherical space they have taken an information on demand approach, making it up to the user to prompt for 
-specific information at need. This by having a secondary window up that keeps track of actions made in the sphere. As when clicking on a specific vertex getting the information (the label) about that vertex showing in 
+specific information at need. This by having a secondary window up that keeps track of actions made in the sphere. As when clicking on a specific vertex results in getting the information (the label) about that vertex showing in 
 this window.
 \section{Data representation}
-In this section we will go over how we have choosen to represent our data that we want to visualise.
+This section goes over how to represnt the data to be visualized in the different views.
 \label{Data-Rep}
 \subsection{GraphElement}
 To be able to represent data in the earlier stages, before displaying any views, a small class called GraphElement was created. This represents, as its name suggests, an element of a graph such as a vertex or
 an edge.
 
-The class holds parameters about the name and ids and implements functions making it possible to distinguish between two different GraphElements. See Appendix \ref{Appendix:GraphElement} for the source code.
+The class holds parameters about the name and ids and functions that makes it possible to distinguish between two different GraphElements. See Appendix \ref{Appendix:GraphElement} for the source code.
 \subsection{Data representation within application - DataManager}
 DataManager is a class developed to do the actual data retrieval from the working database. To represent a graph internal in the application the DataManager class retrieves the data one wants to visualise and creates
  GraphElement objects that are put into an object of the data structure called Dictionary \cite{website:dictionary}. This in such a way that each object (can be seen as a vertice) of a network will be set as a key in the 
- dictionary and have a tied value in form of a list of GraphElements. Thus one can see the dataset as that a given key (vertice) in the dictionary (network) has a corresponding list Y (neighbours). For instance say that
+ dictionary and have a tied value in form of a list of GraphElements. Thus one can see the dataset as a given key (vertice) in the dictionary (network) has a corresponding list Y (neighbours). For instance say that
  GraphElement X is a key and are associated to a list Y, then an object y in Y can be seen as that there exists and edge between X and y.
 
 Then when it comes to actually visualise data one needs to convert the data to the appropriate form for the corresponding view. More about this in the next section.
@@ -1570,12 +1570,12 @@ This section will give account for the resulting data parser written for each of
  The code for the parsers can be find in Appendix \ref{Appendix:Parser}.
 \label{section-parsers}
 \subsubsection{VTK data parser}
-The VTK library uses a straightforward simple way of representing a graph. It works such as first all the vertices are added getting sequential ids starting from 1. Then one can add edges between these by calling a function with parameters
+The VTK library uses a straightforward simple way of representing a graph. It works in a way that first all the vertices are added and get sequential ids starting from 1. Then one can add edges between these by calling a function with parameters
 saying between which two vertices the edge connects, using the vertices ids. Making it very compatible with the DataManager class and GraphElement object.
 
 Because VTK represents their data in such a way and one needs to build the data structure in code behind there was no need to implement a parser for VTK. One could simply retain the necessary information from your network
  and use it directly to functions for building graphs in the VTK library. Though a parser was implemented, reading a text file containing information about a network and storing it in a
- dictionary. Much such as in the DataManager class. This parser was implemented for the evaluation stage for the VTK library. Making it possible to take a text file, generated from Gephi as input and returning a 
+ dictionary, such as in the DataManager class. This parser was implemented for the evaluation stage for the VTK library. Making it possible to take a text file, generated from Gephi, as input and returning a 
  dictionary that could then be used to generate a graph with VTK to be evaluated. See appendix \ref{Appendix:Parser} for the source code of the parser.
 \subsubsection{BioFabric data parser}
 BioFabric supports tab-delimited .sif files \cite{website:biosif} as input, therefore a parser for transforming data from our DataManager class to SIF files were created. A SIF file has the following form:\
@@ -1590,9 +1590,9 @@ BioFabric supports tab-delimited .sif files \cite{website:biosif} as input, ther
  \newline
  Where it states vertex name, the information in that field will be what displays in the BioFabric view as the labels. The source code for the parser can be found in appendix \ref{Appendix:Parser}.
 \subsubsection{GerbilSphere data parser}
-GerbilSphere supports two different file formats as input. First is Pajek\cite{website:gephipajek} and second the Extensible Graph Markup Language (XGMML)\cite{website:xgmml}. Pajek is on a text based format with the file 
-extension .Net. Which first states the number of nodes N, followed by N lines with the vertices id and labels. Next comes "*Edges" followed by X lines defining the networks edges. Where you first have the vertice from id
-followed by the to vertice id. The edges can also be weighted, in that case a third value with the weight are added. 
+GerbilSphere supports two different file formats as input. First is Pajek\cite{website:gephipajek} and the second is the Extensible Graph Markup Language (XGMML)\cite{website:xgmml}. Pajek is on a text based format with the file 
+extension .Net. Which first states the number of nodes N, followed by N lines with the vertices id and labels. Next comes "*Edges" followed by X lines defining the networks edges. Where the vertices from id
+are shown followed the to vertice id. The edges can also be weighted, in that case a third value with the weight are added. 
 
 In GerbilSphereAlpha these nodes can have attributes such as positioning for the sphere, the file is then called baked. See \cite{Shelley20121016} for further information.
 
