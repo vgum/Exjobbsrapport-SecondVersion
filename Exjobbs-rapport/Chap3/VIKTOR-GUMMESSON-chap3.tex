@@ -177,9 +177,9 @@ with only a local minima can be much worse than would it be produced with the gl
 a multi-level layout technique that works with graphs containing 15000 vertices. 
 
 In multi-level techniques the graph structure that is to be drawn is viewed in substructures where each substructure has less complexity then the whole. These substructures are then laid out in order from the most simple 
-structure to the most complex one. Hadany and Halers \cite{handh} said it good as that a natural strategy for drawing a graph in a pleasant manner is to first consider an abstraction, 
-disregarding some of the graphs fine details. Afterward add details to correct the layout. They also take up the importance of preserving the essential features of the graph in the abstraction,
-so it becomes of importance to be able to point out the essential feature of a graph. 
+structure to the most complex one. Hadany and Halers \cite{handh} said that a natural strategy for drawing graphs in a pleasant manner is to first consider an abstraction, 
+disregarding some of the graphs fine details, and then add details to correct the layout. They also take up the importance of preserving the essential features of a graph in the abstraction,
+in other words it is importante to be able to point out the essential feature in a graph. 
 
 \subsection{Navigation through zooming}
 The way one zooms becomes a large part when navigating a graph, how one does this greatly affects the situational awareness. When navigating through a graph both global context and local details are of importance. Global context
@@ -187,9 +187,8 @@ is provided when one can navigate through a graph and still be able to orient on
 on a high enough level to give any real information. So to get out more detailed information one is needed to zoom in the graph to a specific area, which is when a tunnel vision problem arises. 
 Causing one to easier lose orientation and information of the overall dependencies when the context is lost.
 
-FishEye view is a technique that address this problem of tunnel vision. One can compare the technique to a fisheye lens used by cameras for the creation of wide panoramic images. The techniques allows one to show high detail
-at focus while displaying less and less detail about information that are further away from focus, how much depends on how far away it lies. Figure \ref{fig:FishEye} shows an example of this. Extra effective this becomes if the data one works with has a clear structure so
-that one can cluster this data.
+FishEye view is a technique that address this problem of tunnel vision. One can compare the technique to a fisheye lens used by cameras for the creation of wide panoramic images. The technique allows for displaying  
+larger areas than in a standard image. It has a higher number of details at the focus, which diminish with a growing distance from the focus. Figure \ref{fig:FishEye} shows an example of this. 
 
 \begin{figure}[!htbp]
 	\centering
@@ -198,9 +197,9 @@ that one can cluster this data.
 	\label{fig:FishEye}
 \end{figure}
 
-\cite{Schaffer:1996:NHC:230562.230577} used the FishEye method while navigating networks where nodes was represented by squares and  
+\cite{Schaffer:1996:NHC:230562.230577} used the FishEye method while navigating networks where nodes were represented by squares and  
 nodes did not overlapp each other. The data used was clustered in a way that one node could contain a subset of different nodes. Figure \ref{fig:FishEyeCluster} shows an example of such a graph and a 
-possible clustering of it.
+possible way to cluster it.
 
 \begin{figure}[!htbp]
 	\centering
@@ -209,8 +208,8 @@ possible clustering of it.
 	\label{fig:FishEyeCluster}
 \end{figure}
 
-When zooming one actually zooms a node/nodes (cluster/clusters). This translate into the FishEye view where the zoomied node/nodes are in focus, getting larger, and the
-other node/nodes being outside focus are getting shrunken. Figure \ref{fig:FishEyeZoom} shows an example of a graph before a zooming action and after.
+When zooming one actually zooms a node/nodes (cluster/clusters). This translate into the FishEye view where the zoomed node/nodes are in focus, getting larger, and the
+other node/nodes being outside focus gets shrunken. Figure \ref{fig:FishEyeZoom} shows an example of a graph before a zooming action and after.
 
 \begin{figure}[!htbp]
 	\centering
@@ -229,10 +228,9 @@ horizontal lines and edges as one-dimensional vertical lines. These vertical lin
 and end at another, representing a connection between these lines (nodes). This different approach lets one get away from the problem of node and edge crossings.
 It guarantees no edge overlapping and no node overlapping.
 
-A difficulty that can arise with many methods is when one handles updates of graphs, which can result in major alterations of a graphs layout when only a few nodes are introduced. 
-This problem exists in BioFabric as well, but because of adding one node is the same as adding one horizontal line and adding a edge equal to adding a vertical line this can 
-help to not having such a big affect on the graphs appearance. Though how much it alters the graph is dependent on how many nodes are added and how many connections to other nodes are
-added.
+One difficulty that can arises with many methods is when one handles updates of graphs, for example when adding or removing nodes to a graph. Which can results in major alterations for a graphs layout when only a few nodes are introduced. 
+This problem exists in BioFabric as well, but because of the way BioFabric handles additions to a graph (adding vertical- and horizontal-lines) this 
+helps to not having to large of an impact on a graphs layout. Though how much it alters the graph is dependent on how many nodes are added and how many connections said node has.
 
 As for how to layout the node and edges there are different approaches one can take. One basic approach is to do a breadth first traversal of the data to be displayed, where neighbouring nodes
 are visited in the order determined by their degree (the data are structured by degree of nodes). Next follows an example of a way of assigning nodes and edges that uses this approach \cite{23102059}.
@@ -278,7 +276,7 @@ Edge assignment:
 	\item Increment the current row, and go to step 2.
 \end{enumerate}
 
-Figure \ref{fig:bio_default} is an example of a big network visualized with BioFabric using the basic approach.
+Figure \ref{fig:bio_default} is an example of a big network visualized with BioFabric using this approach.
 
 \begin{figure}[!htbp]
 	\centering
@@ -332,9 +330,8 @@ are often boolean rules. Example of rules could be: \
 \end{itemize}
 \
 
-If a HivePlot can be created with three axes this is preferred \cite{Krzywinski01092012}, laying the axis with a uniform radial distribution. Because with three axis you get a layout that is edge crossing free. In addition to this 
-three axis makes it possible for each edge between each axis pair not to cross another axis. Though this is not restrained to only three axis, it can be hard to partition nodes to axis so that nodes on axis are only connected
-to neighbouring axis.
+If a HivePlot can be created with three axes this is preferred \cite{Krzywinski01092012}, laying the axis with a uniform radial distribution. Because with three axis you get a layout were no pair of edges cross each other 
+and no edge connected to two axis will cross another axis. Though this is not restrained to only three axis, it becomes hard to assign nodes to axis so these features become obtained for a different number of axis.
 
 For hive plots there are some choices of use, one used is a Java based library \cite{website:JHive}. There are also libraries for R\cite{website:R}, HiveR\cite{website:HiveR}, that supports hive plots in the two-dimensional and three-dimensional space.
 The framework D3.JS\cite{website:D3JS} is an other option that is a JavaScript to create hive plots. And pyveplot\cite{website:pyveplot} that is a library for hiveplots in Python\cite{website:python}.
@@ -400,7 +397,7 @@ tether. Figure \ref{fig:gerbil_zoom} shows when zoomed out respectively zoomed i
 	\label{fig:gerbil_zoom}
 \end{figure}
 
-GerbilSphere implements a 2 1/2D interface, advocated by Ware\cite{Ware}. When a user is positioned inside the sphere and zoom in, the part of the network when zoomed in will be visualized on a flat 2D surface, as seen in Figure
+GerbilSphere implements a 2 1/2D interface, advocated by Ware\cite{Ware}. When a user is positioned inside the sphere and zoom in, the part of the network when zoomed in will be visualized on a flat 2D surface, as seen in figure
 \ref{fig:gerbil_POV}. When zooming out one can still have there point of interest in view, trying to gain more global context of the network. Lastly one can zoom
  out enough to place the view outside the sphere, seeing the network on a 3D sphere.
  
@@ -440,15 +437,13 @@ according to MIME type: HTML is cyan, images are purple, and so on.}
 \end{figure}
 
 \newpage
-\section{Looking forward}
-After the information that has been undergone in this chapter how do we procede in the future chapters of this thesis? 
-When this thesis has been done within a time constraint all relative methods of visualisation could not be implemented and evaluated due to the great number of existing methods. Still measures need to be
+\section{Looking forward} 
+When this thesis has been done within a time constraint all the relative methods of visualisation could not be implemented and evaluated due to the great number of existing methods. Still measures needed to be
 taken so that no major or relevant visualisation method gets overlooked. With the information presented in this chapter as a basis, the visualisation techniques of the highest relevance will be
  chosen for evaluation.
 \subsubsection{Space}
-One important choice of consideration is in which space should the networks be displayed? In this chapter the reader were introduced to a number of different spaces where also different
- visualisation methods have been evaluated with specific data as described. One can conclude that the two most common spaces, the two- and three-dimensional space, are of great importance and need
- to be included for this thesis purpose.
+One important choice of consideration is in which space should the networks be displayed? In this chapter the reader were introduced to a number of different spaces where the two most common spaces,
+ the two- and three-dimensional space, are of great importance and need to be included for this thesis purpose.
 
 Different visualisation techniques will behave differently and result in having different aspects and characteristics depending on which space one uses. These can then be compared for evaluation purposes,
 such as how layout of nodes and edges differs and what impact the space has on zooming and panning. Also how label clutter behave in different spaces may be of interest.
@@ -554,7 +549,7 @@ one chooses to use while implementing said application needs to be considered. T
 \label{Lib:attribute}
 \newline
 \\
-The following matrix, Figure \ref{fig:AttributeMatrix}, lists important functionality one looks for when considering a programming library for implementing visualisation methods. The matrix gives an overview of what the 
+The following matrix, figure \ref{fig:AttributeMatrix}, lists important functionality one looks for when considering a programming library for implementing visualisation methods. The matrix gives an overview of what the 
 different libraries supports from the start. This matrix helps as a basis when selecting libraries for the implementation.\\
 
 \begin{figure}[!htbp]
@@ -693,6 +688,10 @@ While other visualisation techniques that uses different approaches often incorp
 	\label{fig:AllaAesTwoDUnLabeled}
 \end{figure}
 
+\subsubsection{Layout}
+The force-directed view results in an even distrubution of all the vertices and is good at separating subgraphs from each other, as seen in figure \ref{fig:AllaECU1TwoD}. An evident problem that 
+arises is with the edges of a network. The edges quickly converge to a hairball of edges, making it impossible to distinguish individual edges. Which can be seen in figure \ref{fig:AllaAE4}.
+
 \subsubsection{Labeling}
 As mentioned in section \ref{FD:View:appendix}, the VTK library displays labels according to their weights, the higher the weight the higher priority a given vertice label will have. This combined with the force-directed algorithm by nature is good at evenly spreading out vertices, label 
 obscuration becomes lesser of a problem. An example of this is shown in figure \ref{fig:AllaECU3TwoD} where a fairly large network is being displayed. 
@@ -742,7 +741,9 @@ Such as the layout algorithm for vertices and edges, the labelling of vertices a
 	\label{fig:AllaECU3BIO}
 \end{figure}
  
- \subsubsection{Labeling}
+\subsubsection{Layout}
+IDEAS: NEGATIVE TO COMPACT LAYOUTS.
+\subsubsection{Labeling}
 BioFabric also uses a weighted label solution. Here the vertices with highest degree, as in BioFabric becomes the horizontal lines at the top of the view, will be of the greatest size.  
 In figure \ref{fig:AllaECU1BIO} one can see this clearly. The reason behind weighting labels becomes fairly obvious when one
 starts to think about how it would turn out if BioFabric would try to show all their labels of all vertices at the same 
@@ -771,7 +772,7 @@ to layout the vertices and edges in this spherical space.
 
 For this application a tree-dimensional view with a layout method that uses the spherical space was used. The view is based on GerbilSphere \cite{Shelley20121016} where the vertices of a network are laid out
  on the surface of a sphere and one navigates from a point of view inside the sphere (though one can zoom out to see the sphere from the outside). For more details about GerbilSpheer see chapter \ref{Theory}
- section \ref{Gerbil:chap2}. Figure \ref{fig:AllaAE1SPW} and \ref{fig:AllaAE2SPW} show the view in use zoomed outside the sphere while Figure \ref{fig:AllaAE3SPW} shows the view from inside the sphere.
+ section \ref{Gerbil:chap2}. Figure \ref{fig:AllaAE1SPW} and \ref{fig:AllaAE2SPW} show the view in use zoomed outside the sphere while figure \ref{fig:AllaAE3SPW} shows the view from inside the sphere.
 
 \begin{figure}[!htbp]
 	\centering
@@ -794,6 +795,15 @@ For this application a tree-dimensional view with a layout method that uses the 
 	\label{fig:AllaAE3SPW}
 \end{figure}
 \newpage
+
+\subsubsection{Layout}
+When GerbilSphere uses a force-directed algorithm as part of there layout it produce an even distribution of vertices and produce a good view of different subgraphs. One feature that emerges 
+is being able to easy identify hubs. An example of this can be seen in the right side of figure 4.11, where a hub (a single vertice in this case) that connects to many different subgraphs can be seen.
+
+The greatest advantage with GirbilSphere is the extra space one gains. Even in our example were we are displaying a large network we have plenty of space left over. However problematics still exists, 
+as with edges converging towards a hairball effect. Especially in GerbilSphere when it displays the subnetwork in focus as a two-dimensional view when inside the sphere. Figure 4.13 shows an example of this. 
+Vertice obscurance becomes a side effect in the three-dimensional view, resulting in the user to change orientation to obtain desirable views. Compare figure 4.11 with 4.12 were a rotation of ninety degrees of 
+the sphere has been made.
 \subsubsection{Labeling}
 The greatest advantage to this approach is the extra space one gains by using the hyperbolic space. So one might be enticed to draw the conclusion that this is all beneficial thinking,
 haveing more space for both labels and vertices lets the application lay out all data points in a satisfactory way. While the fact about more space might be true one will soon see that
@@ -801,11 +811,10 @@ obscuration of data becomes a much more severe problem compared to two-dimension
  
 Presumably GerbilSphereAlpha have attempted to work around obscurance taken a information on demand approach. Choosing not to display labels on the
 sphere and instead having a separate window that displays information about a vertice when that specific vertice is chosen by the user.
-This results in a lower risk of obscuration of labels but at the same time demands more from the user. More in the
-sense that the user needs to have a greater knowledge about the network and its structure before hand to be able
-to navigate and retrieve desirable data from the visualized network. It also causes a delay in identifying 
-vertices when a user needs to click a specific vertice to get information about it. Finally a user might loose orientation
-if the user forgets which vertice the user clicked to get information about in previous steps.
+This results in a lower risk of obscuration of labels but at the same time demands more from the user. Instead it demands the user to have a greater 
+knowledge about the network and its structure before hand to be able to navigate and retrieve desirable data from the visualized network. It also causes a delay in identifying 
+vertices when a user needs to click on a specific vertice to get information about it. Finally a user might loose orientation
+if the user forgets which vertice the user clicked on to get information about in previous steps.
 \subsubsection{Navigation - Situational awarness}
 It has already been indicated that drawing networks in the hyperbolic space offers more space compared to the
 two-dimensional space, which is a positive thing. Though this comes with a price, which has to be paid by the end user with a
@@ -1299,7 +1308,7 @@ yFiles also supports incremental layout, meaning that when a graph needs to be u
 \textbf{\textit{Attribute matrix:}}\
 \newline
 \\
-The following matrix, Figure \ref{fig:libAttributeMatrix:appendix}, lists important functionality one looks for when considering a programming library for implementing visualisation methods. The matrix gives an overview of what the 
+The following matrix, figure \ref{fig:libAttributeMatrix:appendix}, lists important functionality one looks for when considering a programming library for implementing visualisation methods. The matrix gives an overview of what the 
 different libraries supports from the start. This matrix helps as a basis when selecting libraries for the implementation.\\
 
 \begin{figure}[!htbp]

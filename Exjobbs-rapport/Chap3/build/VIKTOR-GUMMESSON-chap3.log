@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.17)  23 APR 2016 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.17)  24 APR 2016 22:02
 entering extended mode
 **D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON
 -chap3.tex
@@ -1254,28 +1254,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Pics/FishEyeEiffel.png, id=381, 771.63281pt x 479.54156pt>
 File: Pics/FishEyeEiffel.png Graphic file (type png)
  <use Pics/FishEyeEiffel.png>
-Package pdftex.def Info: Pics/FishEyeEiffel.png used on input line 196.
+Package pdftex.def Info: Pics/FishEyeEiffel.png used on input line 195.
 (pdftex.def)             Requested size: 231.49162pt x 143.86357pt.
  [7]
-<Pics/FishEyeCluster.png, id=393, 984.67876pt x 441.14813pt>
+<Pics/FishEyeCluster.png, id=394, 984.67876pt x 441.14813pt>
 File: Pics/FishEyeCluster.png Graphic file (type png)
  <use Pics/FishEyeCluster.png>
-Package pdftex.def Info: Pics/FishEyeCluster.png used on input line 207.
+Package pdftex.def Info: Pics/FishEyeCluster.png used on input line 206.
 (pdftex.def)             Requested size: 295.4059pt x 132.34546pt.
 
-<Pics/FishEyeZoom.png, id=395, 898.10532pt x 460.72125pt>
+<Pics/FishEyeZoom.png, id=396, 898.10532pt x 460.72125pt>
 File: Pics/FishEyeZoom.png Graphic file (type png)
  <use Pics/FishEyeZoom.png>
-Package pdftex.def Info: Pics/FishEyeZoom.png used on input line 217.
+Package pdftex.def Info: Pics/FishEyeZoom.png used on input line 216.
 (pdftex.def)             Requested size: 269.43367pt x 138.21744pt.
  [8 <./Pics/FishEyeEiffel.png> <./Pics/FishEyeCluster.png>]
-Overfull \hbox (2.33553pt too wide) in paragraph at lines 223--225
+Overfull \hbox (2.33553pt too wide) in paragraph at lines 222--224
 \T1/lmr/m/n/10.95 This chap-ter in-tro-duce meth-ods used to vi-su-al-ize large
  net-works in a two-dimensional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--243
+Underfull \hbox (badness 10000) in paragraph at lines 235--241
 
  []
 
@@ -1283,7 +1283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--243
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:257: LaTeX Error: There's no line here to end.
+hap3.tex:255: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1294,7 +1294,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:258: LaTeX Error: There's no line here to end.
+hap3.tex:256: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1304,14 +1304,14 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:265: Missing number, treated as zero
+hap3.tex:263: Missing number, treated as zero
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:265: Illegal unit of measure (pt inserted)
+hap3.tex:263: Illegal unit of measure (pt inserted)
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1321,7 +1321,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:265: Missing $ inserted
+hap3.tex:263: Missing $ inserted
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1330,14 +1330,14 @@ my insertion and my current dilemma will both disappear.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:266: Missing number, treated as zero
+hap3.tex:264: Missing number, treated as zero
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:266: Illegal unit of measure (pt inserted)
+hap3.tex:264: Illegal unit of measure (pt inserted)
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1347,7 +1347,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:266: Missing $ inserted
+hap3.tex:264: Missing $ inserted
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1358,50 +1358,50 @@ my insertion and my current dilemma will both disappear.
 <Pics/BIODefault.png, id=414, 537.50812pt x 527.72156pt>
 File: Pics/BIODefault.png Graphic file (type png)
  <use Pics/BIODefault.png>
-Package pdftex.def Info: Pics/BIODefault.png used on input line 285.
+Package pdftex.def Info: Pics/BIODefault.png used on input line 283.
 (pdftex.def)             Requested size: 376.25311pt x 369.40257pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--305
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
 
  []
 
  <Pics/BIOSim.png, id=419, 733.23938pt x 269.50688pt>
 File: Pics/BIOSim.png Graphic file (type png)
  <use Pics/BIOSim.png>
-Package pdftex.def Info: Pics/BIOSim.png used on input line 309.
+Package pdftex.def Info: Pics/BIOSim.png used on input line 307.
 (pdftex.def)             Requested size: 366.61879pt x 134.7531pt.
  [10] [11 <./Pics/BIODefault.png>] <Pics/hiveplotEx1.png, id=445, 501.875pt x 5
 01.875pt>
 File: Pics/hiveplotEx1.png Graphic file (type png)
  <use Pics/hiveplotEx1.png>
-Package pdftex.def Info: Pics/hiveplotEx1.png used on input line 320.
+Package pdftex.def Info: Pics/hiveplotEx1.png used on input line 318.
 (pdftex.def)             Requested size: 250.93687pt x 250.93687pt.
  [12 <./Pics/BIOSim.png> <./Pics/hiveplotEx1.png>] <Pics/TreeMapEx.png, id=463,
  171.64125pt x 140.77594pt>
 File: Pics/TreeMapEx.png Graphic file (type png)
  <use Pics/TreeMapEx.png>
-Package pdftex.def Info: Pics/TreeMapEx.png used on input line 351.
+Package pdftex.def Info: Pics/TreeMapEx.png used on input line 348.
 (pdftex.def)             Requested size: 171.64081pt x 140.77557pt.
  [13]
 <Pics/HyperBolicGeom.png, id=483, 298.86656pt x 153.57375pt>
 File: Pics/HyperBolicGeom.png Graphic file (type png)
  <use Pics/HyperBolicGeom.png>
-Package pdftex.def Info: Pics/HyperBolicGeom.png used on input line 374.
+Package pdftex.def Info: Pics/HyperBolicGeom.png used on input line 371.
 (pdftex.def)             Requested size: 298.86581pt x 153.57336pt.
  [14 <./Pics/TreeMapEx.png>]
 <Pics/GerbilZoomTether.jpg, id=496, 212.97266pt x 105.527pt>
 File: Pics/GerbilZoomTether.jpg Graphic file (type jpg)
  <use Pics/GerbilZoomTether.jpg>
-Package pdftex.def Info: Pics/GerbilZoomTether.jpg used on input line 398.
+Package pdftex.def Info: Pics/GerbilZoomTether.jpg used on input line 395.
 (pdftex.def)             Requested size: 212.97212pt x 105.52672pt.
 
 <Pics/GerbilPointOfView.jpg, id=499, 212.97266pt x 111.283pt>
 File: Pics/GerbilPointOfView.jpg Graphic file (type jpg)
  <use Pics/GerbilPointOfView.jpg>
-Package pdftex.def Info: Pics/GerbilPointOfView.jpg used on input line 410.
+Package pdftex.def Info: Pics/GerbilPointOfView.jpg used on input line 407.
 (pdftex.def)             Requested size: 212.97212pt x 111.28271pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--415
+Underfull \hbox (badness 10000) in paragraph at lines 404--412
 
  []
 
@@ -1412,13 +1412,13 @@ Underfull \vbox (badness 2409) has occurred while \output is active []
 <Pics/H3ConeVSHem.png, id=514, 441.90094pt x 330.48468pt>
 File: Pics/H3ConeVSHem.png Graphic file (type png)
  <use Pics/H3ConeVSHem.png>
-Package pdftex.def Info: Pics/H3ConeVSHem.png used on input line 423.
+Package pdftex.def Info: Pics/H3ConeVSHem.png used on input line 420.
 (pdftex.def)             Requested size: 220.94992pt x 165.24193pt.
 
 <Pics/HyperBolicEx1.png, id=515, 277.78781pt x 249.93375pt>
 File: Pics/HyperBolicEx1.png Graphic file (type png)
  <use Pics/HyperBolicEx1.png>
-Package pdftex.def Info: Pics/HyperBolicEx1.png used on input line 436.
+Package pdftex.def Info: Pics/HyperBolicEx1.png used on input line 433.
 (pdftex.def)             Requested size: 138.89355pt x 124.96657pt.
  [16 <./Pics/GerbilZoomTether.jpg> <./Pics/GerbilPointOfView.jpg>] [17 <./Pics/
 H3ConeVSHem.png> <./Pics/HyperBolicEx1.png>] [18] [19] [20
@@ -1427,7 +1427,7 @@ H3ConeVSHem.png> <./Pics/HyperBolicEx1.png>] [18] [19] [20
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:555: LaTeX Error: There's no line here to end.
+hap3.tex:550: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1438,7 +1438,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:557: LaTeX Error: There's no line here to end.
+hap3.tex:552: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1447,7 +1447,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--559
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
@@ -1455,25 +1455,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--559
 <Pics/LibraryAttributeMatrix.png, id=589, 422.32782pt x 131.74219pt>
 File: Pics/LibraryAttributeMatrix.png Graphic file (type png)
  <use Pics/LibraryAttributeMatrix.png>
-Package pdftex.def Info: Pics/LibraryAttributeMatrix.png used on input line 562
+Package pdftex.def Info: Pics/LibraryAttributeMatrix.png used on input line 557
 .
 (pdftex.def)             Requested size: 422.32678pt x 131.74185pt.
 
-Overfull \hbox (26.32678pt too wide) in paragraph at lines 562--563
+Overfull \hbox (26.32678pt too wide) in paragraph at lines 557--558
  [][] 
  []
 
  [25
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 570--573
+Underfull \hbox (badness 10000) in paragraph at lines 565--568
 
  []
 
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:574: LaTeX Error: There's no line here to end.
+hap3.tex:569: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1482,14 +1482,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (3.72746pt too wide) in paragraph at lines 578--586
+Overfull \hbox (3.72746pt too wide) in paragraph at lines 573--581
  [][] 
  []
 
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:587: LaTeX Error: There's no line here to end.
+hap3.tex:582: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1498,7 +1498,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--592
+Underfull \hbox (badness 10000) in paragraph at lines 583--587
 
  []
 
@@ -1506,7 +1506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--592
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:606: LaTeX Error: There's no line here to end.
+hap3.tex:601: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1517,7 +1517,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:620: LaTeX Error: There's no line here to end.
+hap3.tex:615: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1532,10 +1532,10 @@ File: Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE2.png Graphic file (ty
 pe png)
  <use Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE2.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE2.p
-ng used on input line 654.
+ng used on input line 649.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 654--655
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 649--650
  [][] 
  []
 
@@ -1546,10 +1546,10 @@ File: Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE4.png Graphic file (ty
 pe png)
  <use Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE4.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE4.p
-ng used on input line 662.
+ng used on input line 657.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 662--663
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 657--658
  [][] 
  []
 
@@ -1560,10 +1560,10 @@ File: Pics/SesammVisualAppPics/2D-View/Labled/ECU/AllaECU1.png Graphic file (ty
 pe png)
  <use Pics/SesammVisualAppPics/2D-View/Labled/ECU/AllaECU1.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/2D-View/Labled/ECU/AllaECU1.p
-ng used on input line 669.
+ng used on input line 664.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 669--670
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 664--665
  [][] 
  []
 
@@ -1574,10 +1574,10 @@ File: Pics/SesammVisualAppPics/2D-View/Labled/ECU/AllaECU3.png Graphic file (ty
 pe png)
  <use Pics/SesammVisualAppPics/2D-View/Labled/ECU/AllaECU3.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/2D-View/Labled/ECU/AllaECU3.p
-ng used on input line 676.
+ng used on input line 671.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 676--677
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 671--672
  [][] 
  []
 
@@ -1589,10 +1589,10 @@ File: Pics/SesammVisualAppPics/2D-View/Labled/AE/2D-View1.png Graphic file (typ
 e png)
  <use Pics/SesammVisualAppPics/2D-View/Labled/AE/2D-View1.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/2D-View/Labled/AE/2D-View1.pn
-g used on input line 684.
+g used on input line 679.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 684--685
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 679--680
  [][] 
  []
 
@@ -1603,10 +1603,10 @@ File: Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE1.png Graphic file (ty
 pe png)
  <use Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE1.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/2D-View/Unlabled/AE/AllaAE1.p
-ng used on input line 691.
+ng used on input line 686.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 691--692
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 686--687
  [][] 
  []
 
@@ -1616,110 +1616,114 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [30 <./Pics/SesammVisualAppPics/2D-View/Labled/ECU/AllaECU3.png> <./Pics/Sesam
 mVisualAppPics/2D-View/Labled/AE/2D-View1.png>] [31 <./Pics/SesammVisualAppPics
 /2D-View/Unlabled/AE/AllaAE1.png>]
-<Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU1.png, id=662, 1451.4
+<Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU1.png, id=664, 1451.4
 225pt x 813.0375pt>
 File: Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU1.png Graphic fi
 le (type png)
 
 <use Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU1.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/Alla
-ECU1.png used on input line 725.
+ECU1.png used on input line 724.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 725--726
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 724--725
  [][] 
  []
 
- [32 <./Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU1.png>]
-<Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU2.png, id=670, 1451.4
+ [32]
+<Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU2.png, id=672, 1451.4
 225pt x 813.0375pt>
 File: Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU2.png Graphic fi
 le (type png)
 
 <use Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU2.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/Alla
-ECU2.png used on input line 733.
+ECU2.png used on input line 732.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 733--734
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 732--733
  [][] 
  []
 
 
-<Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU3.png, id=673, 1451.4
+<Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU3.png, id=675, 1451.4
 225pt x 813.0375pt>
 File: Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU3.png Graphic fi
 le (type png)
 
 <use Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU3.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/Alla
-ECU3.png used on input line 740.
+ECU3.png used on input line 739.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 740--741
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 739--740
  [][] 
  []
 
- [33 <./Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU2.png> <./Pics
-/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU3.png>] [34]
-<Pics/SesammVisualAppPics/SphericalView/AE/AE1.png, id=695, 1451.4225pt x 813.0
+
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+ [33 <./Pics/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU1.png> <./Pics
+/SesammVisualAppPics/BioFabric/Undirected/ECU/AllaECU2.png>] [34 <./Pics/Sesamm
+VisualAppPics/BioFabric/Undirected/ECU/AllaECU3.png>]
+<Pics/SesammVisualAppPics/SphericalView/AE/AE1.png, id=699, 1451.4225pt x 813.0
 375pt>
 File: Pics/SesammVisualAppPics/SphericalView/AE/AE1.png Graphic file (type png)
 
  <use Pics/SesammVisualAppPics/SphericalView/AE/AE1.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/SphericalView/AE/AE1.png used
- on input line 778.
+ on input line 779.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 778--779
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 779--780
  [][] 
  []
 
 
-<Pics/SesammVisualAppPics/SphericalView/AE/AE2.png, id=696, 1451.4225pt x 813.0
+<Pics/SesammVisualAppPics/SphericalView/AE/AE2.png, id=700, 1451.4225pt x 813.0
 375pt>
 File: Pics/SesammVisualAppPics/SphericalView/AE/AE2.png Graphic file (type png)
 
  <use Pics/SesammVisualAppPics/SphericalView/AE/AE2.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/SphericalView/AE/AE2.png used
- on input line 785.
+ on input line 786.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 785--786
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 786--787
  [][] 
  []
 
 
-<Pics/SesammVisualAppPics/SphericalView/AE/AE5.png, id=699, 1451.4225pt x 813.0
+<Pics/SesammVisualAppPics/SphericalView/AE/AE5.png, id=703, 1451.4225pt x 813.0
 375pt>
 File: Pics/SesammVisualAppPics/SphericalView/AE/AE5.png Graphic file (type png)
 
  <use Pics/SesammVisualAppPics/SphericalView/AE/AE5.png>
 Package pdftex.def Info: Pics/SesammVisualAppPics/SphericalView/AE/AE5.png used
- on input line 792.
+ on input line 793.
 (pdftex.def)             Requested size: 435.43011pt x 243.91313pt.
 
-Overfull \hbox (39.43011pt too wide) in paragraph at lines 792--793
+Overfull \hbox (39.43011pt too wide) in paragraph at lines 793--794
  [][] 
  []
 
- [35 <./Pics/SesammVisualAppPics/SphericalView/AE/AE1.png>] [36 <./Pics/SesammV
-isualAppPics/SphericalView/AE/AE2.png> <./Pics/SesammVisualAppPics/SphericalVie
-w/AE/AE5.png>]
-Overfull \hbox (3.869pt too wide) in paragraph at lines 802--809
+ [35] [36 <./Pics/SesammVisualAppPics/SphericalView/AE/AE1.png> <./Pics/SesammV
+isualAppPics/SphericalView/AE/AE2.png>] [37 <./Pics/SesammVisualAppPics/Spheric
+alView/AE/AE5.png>]
+Overfull \hbox (3.869pt too wide) in paragraph at lines 812--818
 []\T1/lmr/m/n/10.95 Presumably Ger-bil-Sphe-re-Al-pha have at-tempted to work a
 round ob-scu-rance taken
  []
 
- [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 830--832
+ [38]
+Underfull \hbox (badness 10000) in paragraph at lines 839--841
 
  []
 
  [39
 
 ] [40]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 862.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 871.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1737,31 +1741,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
-Overfull \hbox (59.74821pt too wide) in paragraph at lines 1033--1034
+Overfull \hbox (59.74821pt too wide) in paragraph at lines 1042--1043
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
 
 
-Overfull \hbox (59.74821pt too wide) in paragraph at lines 1035--1036
+Overfull \hbox (59.74821pt too wide) in paragraph at lines 1044--1045
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
 
 
-Overfull \hbox (59.74821pt too wide) in paragraph at lines 1037--1038
+Overfull \hbox (59.74821pt too wide) in paragraph at lines 1046--1047
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
 
 
-Overfull \hbox (59.74821pt too wide) in paragraph at lines 1039--1040
+Overfull \hbox (59.74821pt too wide) in paragraph at lines 1048--1049
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
 
 
-Overfull \hbox (0.9486pt too wide) in paragraph at lines 1051--1052
+Overfull \hbox (0.9486pt too wide) in paragraph at lines 1060--1061
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][]  
  []
@@ -1779,26 +1783,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1121.
+(hyperref)                than one, level fixed on input line 1130.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1143
 
  []
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1147: Extra }, or forgotten \endgroup
+hap3.tex:1156: Extra }, or forgotten \endgroup
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1806,33 +1810,33 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1167
 
  []
 
  [51]
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1167
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1167
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1176
 
  []
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1177: Extra }, or forgotten \endgroup
+hap3.tex:1186: Extra }, or forgotten \endgroup
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1840,23 +1844,23 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1185
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1186--1196
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1186--1196
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1205
 
  []
 
  [52]
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1220: Extra }, or forgotten \endgroup
+hap3.tex:1229: Extra }, or forgotten \endgroup
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1864,33 +1868,33 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1247
 
  []
 
  [53]
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1254: Extra }, or forgotten \endgroup
+hap3.tex:1263: Extra }, or forgotten \endgroup
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1900,7 +1904,7 @@ deleted material, e.g., by typing `I$}'.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1257: LaTeX Error: There's no line here to end.
+hap3.tex:1266: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1909,49 +1913,49 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1258--1288
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1258--1288
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1258--1288
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1297
 
  []
 
  [54]
-Underfull \hbox (badness 10000) in paragraph at lines 1289--1297
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1298--1304
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1298--1304
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1313
 
  []
 
 File: Pics/LibraryAttributeMatrix.png Graphic file (type png)
  <use Pics/LibraryAttributeMatrix.png>
-Package pdftex.def Info: Pics/LibraryAttributeMatrix.png used on input line 130
-7.
+Package pdftex.def Info: Pics/LibraryAttributeMatrix.png used on input line 131
+6.
 (pdftex.def)             Requested size: 422.32678pt x 131.74185pt.
 
-Overfull \hbox (26.32678pt too wide) in paragraph at lines 1307--1308
+Overfull \hbox (26.32678pt too wide) in paragraph at lines 1316--1317
  [][] 
  []
 
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1312: LaTeX Error: There's no line here to end.
+hap3.tex:1321: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1962,7 +1966,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1313: LaTeX Error: There's no line here to end.
+hap3.tex:1322: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1973,7 +1977,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1314: LaTeX Error: There's no line here to end.
+hap3.tex:1323: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1984,7 +1988,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1314: LaTeX Error: There's no line here to end.
+hap3.tex:1323: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -1993,12 +1997,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1315--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1320--1322
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1331
 
  []
 
@@ -2006,7 +2010,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1320--1322
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1323: LaTeX Error: There's no line here to end.
+hap3.tex:1332: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2017,7 +2021,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1323: LaTeX Error: There's no line here to end.
+hap3.tex:1332: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2026,24 +2030,24 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1347
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1347
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
 
  []
 
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1350: LaTeX Error: There's no line here to end.
+hap3.tex:1359: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2052,58 +2056,58 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (3.21893pt too wide) in paragraph at lines 1350--1373
+Overfull \hbox (3.21893pt too wide) in paragraph at lines 1359--1382
 \T1/lmr/m/n/10.95 When it comes to the vi-su-al-i-sa-tion tech-niques like Bio-
 Fab-ric, Hive Plots and Treemap
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1382
 
  []
 
  [56]
-Underfull \hbox (badness 10000) in paragraph at lines 1374--1381
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1374--1381
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1390
 
  []
 
@@ -2112,7 +2116,7 @@ Underfull \vbox (badness 2245) has occurred while \output is active []
 
  [57]
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1394: Extra }, or forgotten \endgroup
+hap3.tex:1403: Extra }, or forgotten \endgroup
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2120,14 +2124,14 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1400
+Underfull \hbox (badness 10000) in paragraph at lines 1404--1409
 
  []
 
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1419: LaTeX Error: There's no line here to end.
+hap3.tex:1428: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2136,39 +2140,39 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1422--1430
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1439
 
  []
 
 
-Overfull \hbox (81.14809pt too wide) in paragraph at lines 1422--1430
+Overfull \hbox (81.14809pt too wide) in paragraph at lines 1431--1439
 [] 
  []
 
  [58]
-Underfull \hbox (badness 10000) in paragraph at lines 1434--1436
+Underfull \hbox (badness 10000) in paragraph at lines 1443--1445
 
  []
 
 
-Overfull \hbox (3.72746pt too wide) in paragraph at lines 1445--1453
+Overfull \hbox (3.72746pt too wide) in paragraph at lines 1454--1462
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1438--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1447--1469
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1438--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1447--1469
 
  []
 
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1461: LaTeX Error: There's no line here to end.
+hap3.tex:1470: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2177,12 +2181,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
  [59]
-Underfull \hbox (badness 10000) in paragraph at lines 1462--1510
+Underfull \hbox (badness 10000) in paragraph at lines 1471--1519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1462--1510
+Underfull \hbox (badness 10000) in paragraph at lines 1471--1519
 
  []
 
@@ -2195,14 +2199,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2245) has occurred while \output is active []
 
  [64]
-Underfull \hbox (badness 10000) in paragraph at lines 1581--1584
+Underfull \hbox (badness 10000) in paragraph at lines 1590--1593
 
  []
 
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1589: LaTeX Error: Something's wrong--perhaps a missing \item.
+hap3.tex:1598: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2212,7 +2216,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1590: LaTeX Error: There's no line here to end.
+hap3.tex:1599: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2224,7 +2228,7 @@ or  <return>  to continue without it.
 
 
 D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/VIKTOR-GUMMESSON-c
-hap3.tex:1606: LaTeX Error: There's no line here to end.
+hap3.tex:1615: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help
@@ -2401,23 +2405,23 @@ Underfull \hbox (badness 2384) in paragraph at lines 398--403
 \tf@toc=\write5
 \openout5 = `VIKTOR-GUMMESSON-chap3.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1610.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1610.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1619.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1619.
 
 (D:\GitHub\Exjobbsrapport-SecondVersion\Exjobbs-rapport\Chap3\build\VIKTOR-GUMM
 ESSON-chap3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1610.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1610.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1619.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1619.
 
 Package rerunfilecheck Info: File `VIKTOR-GUMMESSON-chap3.out' has not changed.
 
-(rerunfilecheck)             Checksum: 19B37875E9108C7E499DF31E771FF097;4060.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1610.
+(rerunfilecheck)             Checksum: 22D3E21204E8A6FC1ECDAF175BAA881C;4060.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1619.
  ) 
 Here is how much of TeX's memory you used:
- 12615 strings out of 493634
- 180848 string characters out of 3141279
- 341216 words of memory out of 3000000
+ 12618 strings out of 493634
+ 180881 string characters out of 3141279
+ 341215 words of memory out of 3000000
  15214 multiletter control sequences out of 15000+200000
  84715 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -2443,9 +2447,9 @@ m/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssdc1
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
 Output written on D:/GitHub/Exjobbsrapport-SecondVersion/Exjobbs-rapport/Chap3/
-build/VIKTOR-GUMMESSON-chap3.pdf (77 pages, 8710002 bytes).
+build/VIKTOR-GUMMESSON-chap3.pdf (77 pages, 8711922 bytes).
 PDF statistics:
- 1575 PDF objects out of 1728 (max. 8388607)
- 581 named destinations out of 1000 (max. 500000)
+ 1581 PDF objects out of 1728 (max. 8388607)
+ 584 named destinations out of 1000 (max. 500000)
  637 words of extra memory for PDF output out of 10000 (max. 10000000)
 
